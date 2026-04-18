@@ -2,7 +2,7 @@
   "title": "The AI Revolution: 2026",
   "author": "From Code to Cure — The Future is Now",
   "theme": "black",
-  "transition": "fade",
+  "transition": "slide",
   "controls": true,
   "progress": true,
   "showSlideNumbers": false,
@@ -10,21 +10,21 @@
   "slides": [
     {
       "type": "title",
-      "transition": "fade",
+      "transition": "slide",
       "title": "The AI Revolution: 2026",
       "subtitle": "From Code to Cure — The Future is Now",
       "body": "We stand at the inflection point where artificial intelligence has stopped being a tool and started being a partner. This is the story of how AI is rewriting medicine, science, and human potential — and what it costs to wield this power."
     },
     {
       "type": "section-break",
-      "transition": "zoom",
+      "transition": "slide",
       "title": "⚡ Act I — The Price of Intelligence",
       "subtitle": "How much does a thought cost in 2026?",
       "body": "The AI arms race has produced models that think like humans, reason like experts, and create like artists. But every token has a price — from $0.00003 to $0.35 per thought. Welcome to the economics of artificial consciousness."
     },
     {
       "type": "content",
-      "transition": "fade",
+      "transition": "slide",
       "title": "The Energy Paradox",
       "bullets": [
         "⚡ AI consumes 10% of U.S. electricity — 415 terawatt hours in 2024",
@@ -36,7 +36,7 @@
     },
     {
       "type": "two-column",
-      "transition": "fade",
+      "transition": "slide",
       "title": "Frontier vs Budget: The 600× Price Gap",
       "left_title": "🚀 Frontier Models (Premium Intelligence)",
       "right_title": "📊 Budget Models (Practical Intelligence)",
@@ -57,14 +57,14 @@
     },
     {
       "type": "section-break",
-      "transition": "zoom",
+      "transition": "slide",
       "title": "🧠 Act II — The Benchmark Wars",
       "subtitle": "Where each model truly excels",
       "body": "No single AI dominates every task. GPT-5.4 leads math, Claude excels at reasoning, and Gemini wins on price-performance. The real question isn't which is best — it's which is best for you."
     },
     {
       "type": "table",
-      "transition": "fade",
+      "transition": "slide",
       "title": "The 2026 AI Championship Table",
       "headers": ["Task", "🥇 Champion", "Score", "Runner-up", "Score"],
       "rows": [
@@ -80,7 +80,7 @@
     },
     {
       "type": "content",
-      "transition": "fade",
+      "transition": "slide",
       "title": "The Specialization Matrix",
       "bullets": [
         "💻 Choose GPT-5.3 Codex for: Autonomous coding, math competitions, desktop agents",
@@ -92,14 +92,14 @@
     },
     {
       "type": "section-break",
-      "transition": "zoom",
+      "transition": "slide",
       "title": "🏥 Act III — AI Saves Lives",
       "subtitle": "Where the rubber meets the road",
       "body": "Beyond benchmarks and pricing lies the real revolution: AI that detects cancer earlier, designs drugs faster, and codes medical records with superhuman accuracy. This isn't just about intelligence — it's about saving lives."
     },
     {
       "type": "two-column",
-      "transition": "fade",
+      "transition": "slide",
       "title": "Medical Breakthroughs: 2026",
       "left_title": "💊 Drug Discovery Revolution",
       "right_title": "🏥 Clinical AI Triumphs",
@@ -120,7 +120,7 @@
     },
     {
       "type": "content",
-      "transition": "fade",
+      "transition": "slide",
       "title": "The Acceleration Curve",
       "bullets": [
         "🚀 255+ model releases in Q1 2026 — one every 72 hours",
@@ -132,20 +132,20 @@
     },
     {
       "type": "quote",
-      "transition": "fade",
+      "transition": "slide",
       "quote": "Most AI systems fall short in medical coding because they treat it as labeling, not reasoning. Correct coding depends on evidence, context, hierarchy, and guideline interpretation. We built Symphony to follow the same logical process a trained human coder does.",
       "attribution": "Lars Maaløe, Co-founder of Corti"
     },
     {
       "type": "section-break",
-      "transition": "zoom",
+      "transition": "slide",
       "title": "🔮 The Future is Modular",
       "subtitle": "Intelligence as a composable service",
       "body": "The era of one-model-fits-all is ending. Tomorrow's AI systems will route simple tasks to budget models ($0.00003/thought) and complex reasoning to frontier models ($0.35/thought) — cutting costs by 90% while maintaining quality."
     },
     {
       "type": "content",
-      "transition": "fade",
+      "transition": "slide",
       "title": "Strategic Recommendations",
       "bullets": [
         "💰 For cost-sensitive workloads: Gemini 3.1 Pro ($1.25/$5 per M tokens)",
@@ -157,13 +157,13 @@
     },
     {
       "type": "quote",
-      "transition": "fade",
+      "transition": "slide",
       "quote": "The flagship pricing landscape in April 2026 is clear: Gemini 3.1 Pro is the price leader, GPT-5.4 offers the best all-round value, and Claude Opus 4.6 commands a premium that's justified for quality-sensitive applications.",
       "attribution": "AI Cost Check, April 2026"
     },
     {
       "type": "section-break",
-      "transition": "zoom",
+      "transition": "slide",
       "title": "🌌 We Are The Architects",
       "subtitle": "Building the future, one token at a time",
       "body": "Every line of code, every medical diagnosis, every scientific breakthrough now passes through silicon minds. We're not just using AI — we're shaping what intelligence means. The cost is measured in dollars, but the value is measured in lives saved, diseases cured, and human potential unlocked."
