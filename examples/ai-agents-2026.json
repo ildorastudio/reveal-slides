@@ -1,0 +1,156 @@
+{
+  "title": "AI Agents in 2026",
+  "author": "A Practical Guide for Developers — April 2026",
+  "theme": "black",
+  "transition": "zoom",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "custom_css": ":root{--neon:#00d4ff;--accent:#00ff88;--warn:#ffb347;--border:rgba(0,212,255,.2);--mono:'Cascadia Code','Fira Code','JetBrains Mono',monospace;--sans:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif} .reveal{font-family:var(--sans)!important;background:linear-gradient(135deg,#020810 0%,#050d1a 40%,#060e1c 100%)!important} .reveal::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(0,212,255,.04) 39px,rgba(0,212,255,.04) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(0,212,255,.04) 39px,rgba(0,212,255,.04) 40px);pointer-events:none;z-index:0} .reveal h1,.reveal h2,.reveal h3{font-family:var(--sans)!important;font-weight:900!important;letter-spacing:-0.02em} .reveal h1{color:var(--neon)!important;text-shadow:0 0 30px rgba(0,212,255,.4)} .reveal h2{color:var(--neon)!important} .reveal .slides section{background:transparent!important;z-index:1;position:relative} .reveal strong{color:var(--accent)!important} .reveal em{color:var(--warn)!important;font-style:normal} .reveal ul li{color:rgba(255,255,255,.9);line-height:1.7;padding:4px 0} .reveal ul li::marker{color:var(--neon)} .reveal code,.reveal pre{font-family:var(--mono)!important;background:rgba(0,10,20,.85)!important;border:1px solid var(--border)!important;border-radius:6px} .reveal pre{box-shadow:0 0 24px rgba(0,212,255,.12);font-size:.68em!important} .reveal table{background:rgba(0,10,20,.7)!important;border:1px solid var(--border)!important;border-radius:8px;font-size:.8em} .reveal table th{background:rgba(0,212,255,.12)!important;color:var(--neon)!important;font-weight:700;border-bottom:1px solid var(--border)!important} .reveal table td{border-color:rgba(0,212,255,.08)!important} .reveal blockquote{background:rgba(0,212,255,.05)!important;border-left:4px solid var(--neon)!important;border-radius:0 8px 8px 0;color:rgba(255,255,255,.9)!important;font-style:italic;padding:20px 30px!important} .col-title{color:var(--accent)!important;font-weight:700;border-bottom:1px solid rgba(0,255,136,.3);padding-bottom:6px;margin-bottom:12px} .slide-section-break{text-align:center} .slide-section-break h2{color:var(--neon)!important;font-size:2em!important} .reveal .slides section::after{content:'AI AGENTS · 2026';position:absolute;bottom:10px;right:18px;font-size:.45em;color:rgba(0,212,255,.22);letter-spacing:.18em;pointer-events:none}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "zoom",
+      "title": "AI Agents in 2026",
+      "subtitle": "A Practical Guide for Developers — Building Production-Ready Agentic Systems",
+      "body": "Targeted at developers with agent experience. We'll cover architecture, design patterns, frameworks, and the hard lessons from shipping agents at scale. April 2026."
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Why This Matters for Developers Right Now",
+      "bullets": [
+        "Agents have moved from prototypes to production in 2026",
+        "Automate dev workflows: code gen → testing → deployment",
+        "Key 2026 shift: single → multi-agent + stateful systems",
+        "40%+ of enterprise apps to include task-specific agents (Gartner)",
+        "Ready to ship agents surviving real users, not just demos?"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Evolution: From Chatbots to Agentic Systems",
+      "left_title": "2022–2025: The Build-Up",
+      "right_title": "2026: The Agentic Era",
+      "left": [
+        "2022–2024: Prompt → Response (ChatGPT era)",
+        "Stateless, single-turn LLM interactions",
+        "2025: Tool-calling + basic agent loops emerge",
+        "Simple ReAct patterns gain traction",
+        "Agents as impressive demos, not production"
+      ],
+      "right": [
+        "Full agentic systems: planning + memory + tools",
+        "Multi-agent collaboration at production scale",
+        "Built-in observability, tracing, checkpoints",
+        "Stateful, controllable, auditable workflows",
+        "From chat sessions to autonomous pipelines"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "What Exactly Is an AI Agent? (Technical View)",
+      "bullets": [
+        "Core: LLM + Tools + Memory + Planner + Executor in a loop",
+        "2026 key: stateful + controllable, not just reactive",
+        "Think: a state machine where the LLM is the decision engine",
+        "Memory: in-context, vector DB, episodic checkpoints",
+        "Tools: APIs, code exec, browser, file I/O, MCP services"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Core Agent Design Patterns in 2026",
+      "left_title": "Foundational Patterns",
+      "right_title": "Advanced & Emerging",
+      "left": [
+        "ReAct: Reason + Act + Observe — still foundational",
+        "Plan-and-Execute: upfront plan + sequential steps",
+        "Multi-Agent: researcher + coder + critic collaborate",
+        "Reflection: self-correction via evaluator-optimizer",
+        "Hierarchical: orchestrator delegates to sub-agents"
+      ],
+      "right": [
+        "MCP (Model Context Protocol): universal tool standard",
+        "Orchestrator-Worker: controller + parallel workers",
+        "Memory-Augmented: persistent state across sessions",
+        "Human-in-the-Loop: approval gates for critical steps",
+        "Eval-Driven: agents self-grade and retry on failure"
+      ]
+    },
+    {
+      "type": "code",
+      "transition": "slide",
+      "title": "How AI Agents Actually Work (The Reasoning Loop)",
+      "language": "python",
+      "code": "# Agent reasoning loop — LangGraph style\nfrom langgraph.graph import StateGraph, END\nfrom langgraph.checkpoint.memory import MemorySaver\n\ndef agent_node(state):\n    response = llm.invoke(state[\"messages\"])          # Think\n    next_step = \"tools\" if response.tool_calls else END\n    return {\"messages\": [response], \"next\": next_step} # Act\n\ndef tool_node(state):\n    results = execute_tools(state[\"messages\"][-1].tool_calls)  # Observe\n    return {\"messages\": results, \"next\": \"agent\"}\n\ngraph = StateGraph(AgentState)\ngraph.add_node(\"agent\", agent_node)\ngraph.add_node(\"tools\", tool_node)\ngraph.add_edge(\"tools\", \"agent\")                    # loop back\ngraph.add_conditional_edges(\"agent\", lambda s: s[\"next\"])\ngraph.set_entry_point(\"agent\")\n\n# Compile with persistence — enables time-travel debugging\napp = graph.compile(checkpointer=MemorySaver())"
+    },
+    {
+      "type": "table",
+      "transition": "slide",
+      "title": "Top Frameworks & Tools Developers Are Using in 2026",
+      "headers": ["Framework", "Best For", "Curve", "Prod-Ready"],
+      "rows": [
+        ["LangGraph", "Stateful graphs, checkpoints, time-travel debug", "Medium", "★★★★★"],
+        ["CrewAI", "Fast multi-agent role-based prototyping", "Low", "★★★★☆"],
+        ["AutoGen 2.0", "Conversation-driven multi-agent systems", "Medium", "★★★★☆"],
+        ["OpenAI Agents SDK", "Native GPT workflows + handoffs", "Low", "★★★★☆"],
+        ["LlamaIndex Agents", "RAG-heavy agentic pipelines", "Medium", "★★★☆☆"],
+        ["Google ADK", "Gemini-native + enterprise scale", "High", "★★★★☆"],
+        ["Mastra (JS/TS)", "TypeScript-first agent development", "Low", "★★★☆☆"]
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Real-World Developer Use Cases That Deliver",
+      "left_title": "Internal Dev Tools",
+      "right_title": "Product Features",
+      "left": [
+        "Autonomous code review + PR agent workflows",
+        "CI/CD orchestration and auto-fix pipelines",
+        "40-50% LLM call reduction via state management",
+        "Security scanning + compliance automation",
+        "On-call runbook execution agents"
+      ],
+      "right": [
+        "Research agents with live web + tool access",
+        "Customer-support co-pilots with memory",
+        "Self-healing data pipeline agents",
+        "Document processing + intelligent classification",
+        "Multi-agent content generation teams"
+      ]
+    },
+    {
+      "type": "code",
+      "transition": "slide",
+      "title": "Code-First Quickstart: Your First Agent in 5 Minutes",
+      "language": "python",
+      "code": "# pip install langgraph langchain-anthropic\nfrom langgraph.prebuilt import create_react_agent\nfrom langchain_anthropic import ChatAnthropic\nfrom langchain_community.tools import DuckDuckGoSearchRun\n\n# Step 1: LLM + tools\nllm   = ChatAnthropic(model=\"claude-sonnet-4-6\")\ntools = [DuckDuckGoSearchRun()]\n\n# Step 2: Build agent (ReAct loop built-in)\nagent = create_react_agent(llm, tools)\n\n# Step 3: Run with persistent thread memory\nconfig = {\"configurable\": {\"thread_id\": \"session-1\"}}\nresult = agent.invoke(\n    {\"messages\": [{\"role\": \"user\",\n                   \"content\": \"Best LangGraph patterns in 2026?\"}]},\n    config=config,\n)\n# Pro tip: swap create_react_agent for StateGraph for full control\n# Next: add MCP tools, LangSmith tracing, then scale to multi-agent"
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Challenges, Best Practices & The 2026+ Future",
+      "left_title": "Real Challenges",
+      "right_title": "Best Practices & Future",
+      "left": [
+        "Cost: loops + retries = runaway spend if unchecked",
+        "Hallucinations compound across multi-step loops",
+        "Governance: who owns agent decisions in prod?",
+        "Security: tool access + prompt injection risks",
+        "Observability: tracing multi-agent flows is hard"
+      ],
+      "right": [
+        "Eval-driven development from day one",
+        "Human-in-the-loop guardrails for critical paths",
+        "Monitor everything: costs, latency, error rates",
+        "Future: edge agents, agent-to-agent protocols",
+        "Agents don't replace devs — they multiply us"
+      ]
+    }
+  ]
+}
