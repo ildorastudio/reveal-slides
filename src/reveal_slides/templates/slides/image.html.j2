@@ -1,0 +1,31 @@
+<section class="slide-image"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    {% set title = slide.title %}
+    {% include 'partials/_slide_heading.html.j2' %}
+    <div class="img-grid {{ slide.side }}">
+        {% if slide.side == 'left' %}
+        <div>
+            <img src="{{ slide.image }}" alt="{{ slide.alt or '' }}" />
+            {% set caption = slide.caption %}
+            {% include 'partials/_caption.html.j2' %}
+        </div>
+        <div>
+            {% if slide.bullets %}
+            {% set bullets = slide.bullets %}
+            {% include 'partials/_bullets.html.j2' %}
+            {% endif %}
+        </div>
+        {% else %}
+        <div>
+            {% if slide.bullets %}
+            {% set bullets = slide.bullets %}
+            {% include 'partials/_bullets.html.j2' %}
+            {% endif %}
+        </div>
+        <div>
+            <img src="{{ slide.image }}" alt="{{ slide.alt or '' }}" />
+            {% set caption = slide.caption %}
+            {% include 'partials/_caption.html.j2' %}
+        </div>
+        {% endif %}
+    </div>
+</section>

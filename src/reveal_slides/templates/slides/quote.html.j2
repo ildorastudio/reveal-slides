@@ -1,0 +1,6 @@
+<section class="slide-quote"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    <blockquote>{{ slide.quote }}</blockquote>
+    {% if slide.attribution %}
+    <p class="attribution">— {{ slide.attribution }}</p>
+    {% endif %}
+</section>

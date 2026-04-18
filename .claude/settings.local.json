@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python generate.py examples/antigravity-vs-claude.json)",
+      "Bash(start *)",
+      "Bash(cp -r D:/git/reveal-slides/templates D:/git/reveal-slides/src/reveal_slides/templates)",
+      "Bash(cp -r D:/git/reveal-slides/themes D:/git/reveal-slides/src/reveal_slides/themes)",
+      "Bash(python -m reveal_slides examples/quarterly-review.json)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python -m reveal_slides examples/quarterly-review.json --standalone)",
+      "Bash(python -m reveal_slides --help)"
+    ]
+  }
+}

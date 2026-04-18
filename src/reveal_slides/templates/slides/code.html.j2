@@ -1,0 +1,4 @@
+<section class="slide-code"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    {% if slide.title %}<h2>{{ slide.title }}</h2>{% endif %}
+    <pre><code class="language-{{ slide.language }}" data-trim data-noescape>{{ slide.code }}</code></pre>
+</section>

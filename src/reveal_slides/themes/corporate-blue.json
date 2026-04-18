@@ -1,0 +1,42 @@
+{
+  "name": "corporate-blue",
+  "displayName": "Corporate Blue",
+  "description": "Professional blue/white scheme - Suitable for business, corporate presentations",
+  "colors": {
+    "primary": "#007acc",
+    "secondary": "#005a9e",
+    "accent": "#ff6b35",
+    "background1": "#ffffff",
+    "background2": "#f8f9fa",
+    "background3": "#e9ecef",
+    "text": "#212529",
+    "textMuted": "#6c757d",
+    "success": "#28a745",
+    "warning": "#ffc107",
+    "error": "#dc3545"
+  },
+  "gradients": {
+    "slide1": "linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)",
+    "slide2": "linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%)",
+    "slide3": "linear-gradient(135deg, #007acc 0%, #005a9e 100%)",
+    "alternate": "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)"
+  },
+  "fonts": {
+    "heading": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    "body": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    "monospace": "Consolas, Monaco, 'Courier New', monospace"
+  },
+  "sizes": {
+    "titleHeading": "2em",
+    "slideHeading": "1.3em",
+    "sectionHeading": "1.8em",
+    "body": "0.75em",
+    "small": "0.65em"
+  },
+  "spacing": {
+    "slidePadding": "1.5em 2.5em",
+    "elementMargin": "0.6em",
+    "lineHeight": "1.5"
+  },
+  "highlightTheme": "zenburn"
+}

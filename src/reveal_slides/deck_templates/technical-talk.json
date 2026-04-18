@@ -1,0 +1,78 @@
+{
+  "title": "{{ title }}",
+  "author": "{{ author }}",
+  "theme": "tech-future",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "slides": [
+    {
+      "type": "title",
+      "title": "{{ title }}",
+      "subtitle": "A Technical Deep Dive",
+      "body": "{{ date }}"
+    },
+    {
+      "type": "content",
+      "title": "Agenda",
+      "bullets": [
+        "Background and motivation",
+        "Core concepts",
+        "Implementation walkthrough",
+        "Lessons learned"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Background",
+      "subtitle": "Setting the stage"
+    },
+    {
+      "type": "content",
+      "title": "The Problem We Solved",
+      "bullets": [
+        "Context and constraints",
+        "Why existing solutions were insufficient",
+        "Our approach at a high level"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Implementation"
+    },
+    {
+      "type": "code",
+      "title": "Core Logic",
+      "language": "python",
+      "code": "def example():\n    # Replace with your code\n    return result"
+    },
+    {
+      "type": "image",
+      "title": "System Architecture",
+      "image": "path/to/architecture-diagram.png",
+      "alt": "Architecture diagram",
+      "caption": "High-level architecture overview",
+      "side": "right",
+      "bullets": [
+        "Component A handles X",
+        "Component B handles Y",
+        "Data flows left to right"
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Key Takeaways",
+      "bullets": [
+        "Takeaway one",
+        "Takeaway two",
+        "Takeaway three",
+        "Where to go from here"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Q&A",
+      "subtitle": "Questions?"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "tech-future",
+    "displayName": "Tech Future",
+    "description": "Dark blue gradients with cyan/neon accents",
+    "file": "tech-future.json",
+    "category": "technology"
+  },
+  {
+    "name": "corporate-blue",
+    "displayName": "Corporate Blue",
+    "description": "Professional blue/white scheme",
+    "file": "corporate-blue.json",
+    "category": "business"
+  }
+]

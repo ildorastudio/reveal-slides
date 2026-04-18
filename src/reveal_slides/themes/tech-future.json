@@ -1,0 +1,42 @@
+{
+  "name": "tech-future",
+  "displayName": "Tech Future",
+  "description": "Dark blue gradients with cyan/neon accents - Suitable for technology, future, innovation topics",
+  "colors": {
+    "primary": "#00d4ff",
+    "secondary": "#00ff88",
+    "accent": "#ffcc00",
+    "background1": "#1a1a2e",
+    "background2": "#16213e",
+    "background3": "#0f3460",
+    "text": "#ffffff",
+    "textMuted": "#a0a0a0",
+    "success": "#00ff88",
+    "warning": "#ffcc00",
+    "error": "#ff6b6b"
+  },
+  "gradients": {
+    "slide1": "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+    "slide2": "linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%)",
+    "slide3": "linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)",
+    "alternate": "linear-gradient(135deg, #0f3460 0%, #16213e 100%)"
+  },
+  "fonts": {
+    "heading": "Arial, Helvetica, sans-serif",
+    "body": "Arial, Helvetica, sans-serif",
+    "monospace": "Consolas, Monaco, 'Courier New', monospace"
+  },
+  "sizes": {
+    "titleHeading": "2em",
+    "slideHeading": "1.3em",
+    "sectionHeading": "1.8em",
+    "body": "0.75em",
+    "small": "0.65em"
+  },
+  "spacing": {
+    "slidePadding": "1.5em 2.5em",
+    "elementMargin": "0.6em",
+    "lineHeight": "1.6"
+  },
+  "highlightTheme": "monokai"
+}

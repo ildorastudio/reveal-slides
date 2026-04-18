@@ -1,0 +1,16 @@
+<section class="slide-two-column"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    {% set title = slide.title %}
+    {% include 'partials/_slide_heading.html.j2' %}
+    <div class="two-col-grid">
+        <div>
+            {% if slide.left_title %}<p class="col-title">{{ slide.left_title }}</p>{% endif %}
+            {% set bullets = slide.left %}
+            {% include 'partials/_bullets.html.j2' %}
+        </div>
+        <div>
+            {% if slide.right_title %}<p class="col-title">{{ slide.right_title }}</p>{% endif %}
+            {% set bullets = slide.right %}
+            {% include 'partials/_bullets.html.j2' %}
+        </div>
+    </div>
+</section>

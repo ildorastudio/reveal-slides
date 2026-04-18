@@ -1,0 +1,5 @@
+<ul>
+    {% for bullet in bullets %}
+    <li style="--n: {{ loop.index }}">{{ bullet }}</li>
+    {% endfor %}
+</ul>

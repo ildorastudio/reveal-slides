@@ -1,0 +1,130 @@
+{
+  "title": "Antigravity vs Claude",
+  "author": "A Cosmic Showdown — Physics vs Intelligence",
+  "theme": "black",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "custom_css": ".reveal .slides section.slide-title{background:radial-gradient(ellipse at 25% 50%,rgba(0,212,255,.22) 0%,transparent 45%),radial-gradient(ellipse at 75% 50%,rgba(124,58,237,.22) 0%,transparent 45%),#000812 !important} .reveal .slides section.slide-title h1{font-size:2.15em !important;letter-spacing:.04em;animation:titleGlow 3s ease-in-out infinite,fadeInUp 1s ease !important} @keyframes titleGlow{0%,100%{filter:drop-shadow(0 0 18px rgba(0,212,255,.8)) drop-shadow(0 0 36px rgba(124,58,237,.5))}50%{filter:drop-shadow(0 0 34px rgba(0,212,255,1)) drop-shadow(0 0 68px rgba(124,58,237,.8))}} .reveal .slides section.slide-title h2{font-size:1em !important;background:linear-gradient(90deg,#00d4ff 0%,#ff6b35 50%,#a78bfa 100%);background-size:200% 100%;-webkit-background-clip:text !important;-webkit-text-fill-color:transparent !important;background-clip:text !important;animation:chromaShift 5s ease-in-out infinite,fadeInUp 1s ease .3s both !important;font-weight:500} @keyframes chromaShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}} .reveal .slides section.slide-title .slide-body{font-size:.6em;max-width:72%;text-align:center;opacity:.78;line-height:1.75;color:rgba(200,220,255,.9);margin-top:1.1em;font-style:italic;animation:fadeInUp 1s ease .55s both;border-top:1px solid rgba(0,212,255,.2);padding-top:.85em} .reveal .slides section.slide-title .meta{background:linear-gradient(90deg,rgba(0,212,255,.75),rgba(124,58,237,.75));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:fadeInUp 1s ease .7s both} .reveal .slides section.slide-section-break{background:radial-gradient(ellipse 55% 50% at 25% 50%,rgba(0,212,255,.13) 0%,transparent 70%),radial-gradient(ellipse 55% 50% at 75% 50%,rgba(255,100,50,.11) 0%,transparent 70%),#06060f !important} .reveal .slides section.slide-section-break h2{font-size:2.0em !important;text-shadow:0 0 40px rgba(255,255,255,.4),0 0 80px rgba(124,58,237,.35) !important;animation:burstIn .75s cubic-bezier(.34,1.56,.64,1) both !important} @keyframes burstIn{from{transform:scale(.45) rotate(-5deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}} .reveal .slides section.slide-section-break h3{color:rgba(200,200,255,.85) !important;font-style:italic;animation:fadeInUp .8s ease .45s both} .reveal .slides section.slide-section-break .slide-body{font-size:.62em;max-width:68%;text-align:center;opacity:.8;line-height:1.7;color:rgba(180,200,255,.85);margin-top:1em;font-style:italic;animation:fadeInUp .8s ease .7s both;border-top:1px solid rgba(255,255,255,.1);padding-top:.8em} .reveal .two-col-grid>div:first-child{border:1px solid rgba(0,212,255,.38) !important;background:linear-gradient(150deg,rgba(0,212,255,.1) 0%,rgba(0,0,0,.05) 100%) !important;box-shadow:0 0 45px rgba(0,212,255,.08),inset 0 1px 0 rgba(0,212,255,.15) !important} .reveal .two-col-grid>div:last-child{border:1px solid rgba(124,58,237,.38) !important;background:linear-gradient(150deg,rgba(124,58,237,.1) 0%,rgba(0,0,0,.05) 100%) !important;box-shadow:0 0 45px rgba(124,58,237,.08),inset 0 1px 0 rgba(124,58,237,.15) !important} .reveal .two-col-grid>div:first-child .col-title{color:#00d4ff !important;border-color:#00d4ff !important;text-shadow:0 0 14px rgba(0,212,255,.65)} .reveal .two-col-grid>div:last-child .col-title{color:#a78bfa !important;border-color:#7c3aed !important;text-shadow:0 0 14px rgba(124,58,237,.65)} .reveal .two-col-grid ul{font-size:.56em !important} .reveal .two-col-grid li{margin-bottom:.15em !important} .reveal .slides section.slide-content{background:linear-gradient(155deg,#080820 0%,#0c0018 100%) !important} .reveal .slides section.slide-content h2{text-shadow:0 0 18px rgba(0,212,255,.5) !important;border-image:linear-gradient(90deg,#00d4ff,#7c3aed) 1 !important;border-bottom-style:solid !important} .reveal .slides section.slide-quote{background:radial-gradient(ellipse at 50% 40%,rgba(124,58,237,.18) 0%,transparent 60%),#04040e !important} .reveal .slides section.slide-quote blockquote{font-size:1.05em;max-width:88%;animation:fadeInUp .9s ease .1s both} .reveal .slides section.slide-table{background:linear-gradient(155deg,#060612 0%,#0a0019 100%) !important} .reveal .slides section.slide-table h2{text-shadow:0 0 16px rgba(0,212,255,.45) !important} .reveal table{font-size:.54em !important} .reveal table th{padding:.4em .5em !important} .reveal table td{padding:.28em .5em !important}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "slide-in fade-out",
+      "title": "Antigravity vs Claude",
+      "subtitle": "When Physics Meets Intelligence — Who Defies Reality First?",
+      "body": "One bends spacetime. The other bends language. Antigravity has eluded physicists for centuries; Claude emerged in just five years. Both promise to shatter every limit we thought was permanent — and neither plays by the rules."
+    },
+    {
+      "type": "section-break",
+      "transition": "slide-in fade-out",
+      "title": "⚡ Round 1: The Challengers ⚡",
+      "subtitle": "Two forces that bend the laws of the universe",
+      "body": "Before we crown a winner, meet the contenders: a dream of physics that rewrites Newton, and an intelligence that rewrites thought itself. Centuries apart in origin — yet both arrived at the same impossible promise."
+    },
+    {
+      "type": "two-column",
+      "transition": "slide-in fade-out",
+      "title": "Meet the Contenders",
+      "left_title": "🌌 Antigravity",
+      "right_title": "🤖 Claude AI",
+      "left": [
+        "🔬 Defies Newton's gravitational laws",
+        "⚛️ Rooted in quantum field theory",
+        "🚀 Could enable warp-speed travel",
+        "💥 Bends spacetime at will",
+        "🌠 The holy grail of physics"
+      ],
+      "right": [
+        "🧠 Constitutional AI architecture",
+        "⚡ Processes 200K tokens at once",
+        "🌐 Trained on vast human knowledge",
+        "💡 Reasons across every domain",
+        "🔮 The frontier of machine mind"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide-in fade-out",
+      "title": "The Physics of Antigravity",
+      "bullets": [
+        "⚛️ Negative mass: hypothetical matter that actively repels gravity",
+        "🌀 Alcubierre drive: contract space ahead, expand it behind",
+        "🌌 Dark energy: the universe's own antigravity at cosmic scale",
+        "💎 Casimir effect: quantum vacuum exerts a measurable repulsive force",
+        "🔭 Breakthrough: metamaterials may manipulate gravitational coupling"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide-in fade-out",
+      "title": "Claude's Neural Architecture",
+      "bullets": [
+        "🧠 Transformer: scaled attention across 200K-token context windows",
+        "⚖️ Constitutional AI: self-critiques outputs for safety and alignment",
+        "🌊 RLHF: shaped by millions of hours of human preference feedback",
+        "🔗 Tool use: calls APIs, runs code, reads files, browses the web",
+        "🎯 Multi-modal: reasons over text, images, charts and documents"
+      ]
+    },
+    {
+      "type": "table",
+      "transition": "slide-in fade-out",
+      "title": "⚔️ Head-to-Head Showdown",
+      "headers": ["Category", "⚛️ Antigravity", "🤖 Claude AI", "🏆 Edge"],
+      "rows": [
+        ["Speed", "Light speed+ (theory)", "100K tokens/sec (real)", "🤖 Claude — exists now"],
+        ["Energy source", "Zero-point vacuum (theory)", "100+ MW datacenters", "⚛️ Physics — if real"],
+        ["Deployed today?", "❌ Not yet achieved", "✅ 1M+ daily users", "🤖 Claude"],
+        ["Scale of impact", "Warps spacetime itself", "Warps human thought", "🤝 Both reshape reality"],
+        ["Discovery timeline", "Centuries of searching", "5 years of research", "🤖 Claude — far faster"]
+      ]
+    },
+    {
+      "type": "quote",
+      "transition": "slide-in fade-out",
+      "quote": "The universe has two master cheats: gravity bends space so mass moves without force; Claude bends language so meaning moves without effort. Neither plays fair — and that is exactly what makes both worth studying.",
+      "attribution": "Physicist's Note to Self, 2026"
+    },
+    {
+      "type": "two-column",
+      "transition": "slide-in fade-out",
+      "title": "Future Applications",
+      "left_title": "🚀 The Antigravity Era",
+      "right_title": "🤖 The Claude Era",
+      "left": [
+        "🛸 Levitating cities above flood zones",
+        "🌍 Zero-fuel interplanetary transport",
+        "🏗️ Floating megastructures in orbit",
+        "⚡ Infinite clean energy harvesting",
+        "🌌 First true interstellar mission"
+      ],
+      "right": [
+        "🔬 AI designs proteins that cure diseases",
+        "📚 Personalised tutor for every human",
+        "🏛️ Drafts laws and audits governments",
+        "🧬 Engineers novel organisms safely",
+        "🌐 Bridges every language barrier"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide-in fade-out",
+      "title": "Where They Converge",
+      "bullets": [
+        "🤝 Both challenge what humanity believes is physically possible",
+        "🌌 Antigravity needs AI to model quantum spacetime geometry",
+        "🧠 Claude needs physics to ground reasoning in hard reality",
+        "⚡ Together: AI-designed metamaterials that repel gravity",
+        "🚀 Endgame — intelligence and physics unify in one singularity"
+      ]
+    },
+    {
+      "type": "section-break",
+      "transition": "slide-in fade-out",
+      "title": "🏆 The Verdict",
+      "subtitle": "Antigravity defies the universe. Claude defies the mind.",
+      "body": "The real winner? Whoever harnesses both. The future belongs not to physics alone, nor to AI alone — but to the civilisation bold enough to aim a superintelligence at the last unsolved law of nature."
+    }
+  ]
+}

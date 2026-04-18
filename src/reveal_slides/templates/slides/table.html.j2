@@ -1,0 +1,21 @@
+<section class="slide-table"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    {% if slide.title %}<h2>{{ slide.title }}</h2>{% endif %}
+    <table>
+        <thead>
+            <tr>
+                {% for header in slide.headers %}
+                <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in slide.rows %}
+            <tr>
+                {% for cell in row %}
+                <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>

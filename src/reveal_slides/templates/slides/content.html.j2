@@ -1,0 +1,6 @@
+<section class="slide-content"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    {% set title = slide.title %}
+    {% include 'partials/_slide_heading.html.j2' %}
+    {% set bullets = slide.bullets %}
+    {% include 'partials/_bullets.html.j2' %}
+</section>

@@ -1,0 +1,12 @@
+<section class="slide-title"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    <h1>{{ slide.title }}</h1>
+    {% if slide.subtitle %}
+    <h2>{{ slide.subtitle }}</h2>
+    {% endif %}
+    {% if slide.body %}
+    <p class="slide-body">{{ slide.body }}</p>
+    {% endif %}
+    {% if presentation.author %}
+    <p class="meta">{{ presentation.author }}</p>
+    {% endif %}
+</section>

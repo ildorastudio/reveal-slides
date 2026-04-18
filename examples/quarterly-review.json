@@ -1,0 +1,85 @@
+{
+  "title": "Q3 Business Review",
+  "author": "Jane Doe, VP of Product",
+  "theme": "black",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "slides": [
+    {
+      "type": "title",
+      "title": "Q3 Business Review",
+      "subtitle": "Finance & Operations — FY 2026"
+    },
+    {
+      "type": "section-break",
+      "title": "Performance Overview",
+      "subtitle": "How did we do this quarter?"
+    },
+    {
+      "type": "content",
+      "title": "Key Highlights",
+      "bullets": [
+        "Revenue up 18% year-over-year — $4.2M achieved",
+        "Customer Acquisition Cost (CAC) reduced by 12%",
+        "Launched 3 new markets: APAC, MENA, LATAM",
+        "Net Promoter Score improved from 42 → 61",
+        "Headcount grew from 87 to 114 employees"
+      ]
+    },
+    {
+      "type": "two-column",
+      "title": "Revenue vs. Costs",
+      "left_title": "Revenue Drivers",
+      "right_title": "Cost Pressures",
+      "left": [
+        "Enterprise tier up 31%",
+        "SMB renewals at 94%",
+        "New product upsell $0.6M"
+      ],
+      "right": [
+        "Cloud infra +22% QoQ",
+        "Sales headcount 15 new hires",
+        "Marketing spend held flat"
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Regional Breakdown",
+      "headers": ["Region", "Revenue", "Growth", "Churn"],
+      "rows": [
+        ["North America", "$2.1M", "+14%", "3.2%"],
+        ["Europe", "$1.3M", "+22%", "2.8%"],
+        ["APAC (new)", "$0.5M", "—", "1.1%"],
+        ["Other", "$0.3M", "+6%", "4.5%"]
+      ]
+    },
+    {
+      "type": "code",
+      "title": "New Metrics API — Example Response",
+      "language": "json",
+      "code": "{\n  \"period\": \"Q3-2026\",\n  \"revenue\": 4200000,\n  \"growth_pct\": 18.4,\n  \"customers\": {\n    \"active\": 1243,\n    \"churned\": 41,\n    \"new\": 198\n  },\n  \"nps\": 61\n}"
+    },
+    {
+      "type": "quote",
+      "quote": "We didn't build a product. We built the infrastructure that lets our customers build theirs.",
+      "attribution": "Jane Doe, VP of Product"
+    },
+    {
+      "type": "content",
+      "title": "Q4 Priorities",
+      "bullets": [
+        "Close enterprise pipeline worth $1.8M",
+        "Ship mobile app v2 by October 31",
+        "Hire Director of Customer Success",
+        "Achieve SOC 2 Type II certification"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Thank You",
+      "subtitle": "Questions & Discussion"
+    }
+  ]
+}

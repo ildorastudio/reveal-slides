@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ presentation.title }}" />
+    {% if presentation.author %}<meta name="author" content="{{ presentation.author }}" />{% endif %}
+    <title>{{ presentation.title }}</title>
+
+    <!-- Reveal.js core CSS (local, no CDN) -->
+    <link rel="stylesheet" href="{{ asset_prefix }}/reveal.js/dist/reveal.css" />
+    {% if not theme_data %}
+    <link rel="stylesheet" href="{{ asset_prefix }}/reveal.js/dist/theme/{{ presentation.theme }}.css" id="theme" />
+    {% endif %}
+    <!-- Syntax highlighting -->
+    <link rel="stylesheet" href="{{ asset_prefix }}/reveal.js/dist/plugin/highlight/{{ theme_data.highlightTheme if theme_data else 'monokai' }}.css" />
+    <style>
+        {% include 'css/base.css.j2' %}
+        {{ presentation.custom_css or '' }}
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            {% for slide in presentation.slides %}
+                {% include 'slides/' + slide.type + '.html.j2' %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Reveal.js (local, no CDN) -->
+    <script src="{{ asset_prefix }}/reveal.js/dist/reveal.js"></script>
+    <script src="{{ asset_prefix }}/reveal.js/dist/plugin/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            width: 1280,
+            height: 720,
+            margin: 0.04,
+            transition: {{ presentation.transition | tojson }},
+            slideNumber: {{ 'true' if presentation.showSlideNumbers else 'false' }},
+            controls: {{ 'true' if presentation.controls else 'false' }},
+            progress: {{ 'true' if presentation.progress else 'false' }},
+            hash: true,
+            transitionSpeed: 'fast',
+            plugins: [ RevealHighlight ]
+        });
+    </script>
+</body>
+</html>

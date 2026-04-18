@@ -1,0 +1,20 @@
+[
+  {
+    "name": "pitch-deck",
+    "description": "Investor pitch: problem, solution, traction, team, ask",
+    "file": "pitch-deck.json",
+    "defaultTheme": "corporate-blue"
+  },
+  {
+    "name": "quarterly-review",
+    "description": "Quarterly business review: highlights, wins/misses, numbers, next steps",
+    "file": "quarterly-review.json",
+    "defaultTheme": "corporate-blue"
+  },
+  {
+    "name": "technical-talk",
+    "description": "Technical presentation: background, implementation, code, takeaways",
+    "file": "technical-talk.json",
+    "defaultTheme": "tech-future"
+  }
+]

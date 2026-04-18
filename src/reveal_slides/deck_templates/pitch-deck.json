@@ -1,0 +1,94 @@
+{
+  "title": "{{ title }}",
+  "author": "{{ author }}",
+  "theme": "corporate-blue",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "slides": [
+    {
+      "type": "title",
+      "title": "{{ title }}",
+      "subtitle": "Investor Presentation",
+      "body": "{{ date }}"
+    },
+    {
+      "type": "section-break",
+      "title": "The Problem",
+      "subtitle": "What we are solving"
+    },
+    {
+      "type": "content",
+      "title": "The Problem",
+      "bullets": [
+        "Customer pain point one",
+        "Root cause of the inefficiency",
+        "Why existing solutions fall short",
+        "Scale of the opportunity"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Our Solution"
+    },
+    {
+      "type": "content",
+      "title": "How It Works",
+      "bullets": [
+        "Core product capability one",
+        "Core product capability two",
+        "Key differentiator",
+        "Why now is the right time"
+      ]
+    },
+    {
+      "type": "two-column",
+      "title": "Traction & Market",
+      "left_title": "Traction",
+      "right_title": "Market Size",
+      "left": [
+        "Revenue: $X ARR",
+        "Customers: Y active",
+        "Growth: Z% MoM"
+      ],
+      "right": [
+        "TAM: $X billion",
+        "SAM: $Y million",
+        "Target segment: Z"
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Key Metrics",
+      "headers": ["Metric", "Current", "Target"],
+      "rows": [
+        ["Monthly Revenue", "$X", "$Y"],
+        ["Customers", "A", "B"],
+        ["NPS Score", "C", "D"]
+      ]
+    },
+    {
+      "type": "content",
+      "title": "The Team",
+      "bullets": [
+        "CEO — background and relevant experience",
+        "CTO — background and relevant experience",
+        "Advisor — domain expertise"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "The Ask",
+      "subtitle": "Raising $X for Y milestones"
+    },
+    {
+      "type": "content",
+      "title": "Use of Funds",
+      "bullets": [
+        "X% Engineering",
+        "Y% Sales & Marketing",
+        "Z% Operations"
+      ]
+    }
+  ]
+}

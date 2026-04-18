@@ -1,0 +1,116 @@
+{
+  "title": "When Stars Die",
+  "author": "A Cosmic Epic Across 10 Billion Years",
+  "theme": "black",
+  "transition": "fade",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": false,
+  "custom_css": "@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Share+Tech+Mono&display=swap'); :root{--gold:#ffd700;--ice:#7dd3fc;--mo:'Share Tech Mono','Courier New',monospace;--sp:'Exo 2',system-ui,sans-serif} .reveal{font-family:var(--sp)!important;background:radial-gradient(ellipse at 12% 88%,rgba(200,0,80,.06) 0%,transparent 42%),radial-gradient(ellipse at 88% 12%,rgba(30,0,180,.1) 0%,transparent 42%),radial-gradient(ellipse at 55% 45%,rgba(80,0,140,.07) 0%,transparent 52%),#000008!important} .reveal h1,.reveal h2,.reveal h3{font-family:var(--sp)!important;font-weight:900!important;letter-spacing:.04em} .reveal .slides section{background:transparent!important;font-family:var(--sp)!important} .reveal::before,.reveal::after{content:'';position:fixed;top:0;left:0;pointer-events:none;z-index:0;border-radius:50%;background:transparent} .reveal::before{width:1px;height:1px;box-shadow:45px 67px 0 1px rgba(255,255,255,.5),112px 23px 0 1px rgba(255,255,255,.7),189px 456px 0 1px rgba(255,255,255,.4),267px 189px 0 1px rgba(255,255,255,.8),321px 567px 0 1px rgba(255,255,255,.6),398px 78px 0 1px rgba(255,255,255,.5),456px 345px 0 1px rgba(255,255,255,.9),523px 212px 0 1px rgba(255,255,255,.4),589px 634px 0 1px rgba(255,255,255,.7),645px 89px 0 1px rgba(255,255,255,.6),712px 423px 0 1px rgba(255,255,255,.8),776px 167px 0 1px rgba(255,255,255,.5),834px 545px 0 1px rgba(255,255,255,.7),901px 289px 0 1px rgba(255,255,255,.4),967px 678px 0 1px rgba(255,255,255,.9),1023px 34px 0 1px rgba(255,255,255,.6),1089px 312px 0 1px rgba(255,255,255,.5),1145px 567px 0 1px rgba(255,255,255,.8),1212px 189px 0 1px rgba(255,255,255,.7),1267px 445px 0 1px rgba(255,255,255,.4),23px 389px 0 1px rgba(255,255,255,.6),167px 678px 0 1px rgba(255,255,255,.5),245px 312px 0 1px rgba(255,255,255,.8),334px 89px 0 1px rgba(255,255,255,.7),411px 456px 0 1px rgba(255,255,255,.4),489px 167px 0 1px rgba(255,255,255,.9),556px 534px 0 1px rgba(255,255,255,.6),623px 245px 0 1px rgba(255,255,255,.5),689px 378px 0 1px rgba(255,255,255,.7),756px 712px 0 1px rgba(255,255,255,.4),812px 123px 0 1px rgba(255,255,255,.8),878px 467px 0 1px rgba(255,255,255,.6),945px 56px 0 1px rgba(255,255,255,.5),1012px 589px 0 1px rgba(255,255,255,.7),1078px 234px 0 1px rgba(255,255,255,.4),1134px 678px 0 1px rgba(255,255,255,.9),1201px 145px 0 1px rgba(255,255,255,.6),1256px 312px 0 1px rgba(255,255,255,.5),78px 556px 0 1px rgba(255,255,255,.7),145px 145px 0 1px rgba(255,255,255,.8),212px 589px 0 1px rgba(255,255,255,.4),289px 367px 0 1px rgba(255,255,255,.6),356px 234px 0 1px rgba(255,255,255,.7),423px 612px 0 1px rgba(255,255,255,.5),490px 78px 0 1px rgba(255,255,255,.8),557px 389px 0 1px rgba(255,255,255,.6),634px 178px 0 1px rgba(255,255,255,.4),701px 534px 0 1px rgba(255,255,255,.7),767px 267px 0 1px rgba(255,255,255,.9),834px 678px 0 1px rgba(255,255,255,.5),900px 345px 0 1px rgba(255,255,255,.6),967px 112px 0 1px rgba(255,255,255,.8),1034px 456px 0 1px rgba(255,255,255,.4),1100px 578px 0 1px rgba(255,255,255,.7),1167px 89px 0 1px rgba(255,255,255,.5),1234px 423px 0 1px rgba(255,255,255,.6),56px 712px 0 1px rgba(255,255,255,.4),189px 23px 0 1px rgba(255,255,255,.8),312px 456px 0 1px rgba(255,255,255,.6),445px 289px 0 1px rgba(255,255,255,.5),578px 634px 0 1px rgba(255,255,255,.7),712px 178px 0 1px rgba(255,255,255,.4),845px 512px 0 1px rgba(255,255,255,.8),978px 67px 0 1px rgba(255,255,255,.6),1111px 389px 0 1px rgba(255,255,255,.5),1244px 234px 0 1px rgba(255,255,255,.7),34px 334px 0 1px rgba(255,255,255,.8),167px 567px 0 1px rgba(255,255,255,.4),300px 145px 0 1px rgba(255,255,255,.6),433px 478px 0 1px rgba(255,255,255,.7),566px 712px 0 1px rgba(255,255,255,.5),699px 289px 0 1px rgba(255,255,255,.8),832px 34px 0 1px rgba(255,255,255,.4),965px 567px 0 1px rgba(255,255,255,.6),1098px 167px 0 1px rgba(255,255,255,.7),1231px 512px 0 1px rgba(255,255,255,.5),90px 234px 0 1px rgba(255,255,255,.9),223px 689px 0 1px rgba(255,255,255,.4),356px 412px 0 1px rgba(255,255,255,.7),489px 56px 0 1px rgba(255,255,255,.6),622px 345px 0 1px rgba(255,255,255,.8);animation:tw1 7s ease-in-out infinite alternate} .reveal::after{width:2px;height:2px;box-shadow:156px 89px 0 1px rgba(210,235,255,.9),423px 267px 0 1px rgba(220,230,255,.8),689px 456px 0 1px rgba(200,230,255,.7),934px 123px 0 1px rgba(210,240,255,.9),1178px 345px 0 1px rgba(220,235,255,.8),267px 534px 0 1px rgba(200,240,255,.9),534px 178px 0 1px rgba(255,245,200,.8),801px 612px 0 1px rgba(210,230,255,.7),1067px 289px 0 1px rgba(220,240,255,.9),89px 623px 0 1px rgba(210,225,255,.8),356px 356px 0 1px rgba(255,240,200,.7),623px 89px 0 1px rgba(200,230,255,.9),890px 534px 0 1px rgba(220,240,255,.8),1156px 178px 0 1px rgba(210,225,255,.7),212px 712px 0 1px rgba(200,230,255,.9),479px 423px 0 1px rgba(220,235,255,.8),745px 67px 0 1px rgba(255,245,200,.9),1012px 423px 0 1px rgba(200,230,255,.7),1234px 645px 0 1px rgba(210,225,255,.8),45px 178px 0 1px rgba(220,240,255,.9),312px 667px 0 1px rgba(200,230,255,.8),578px 334px 0 1px rgba(255,240,200,.7),845px 178px 0 1px rgba(220,240,255,.9),1112px 578px 0 1px rgba(210,225,255,.8),178px 356px 0 1px rgba(200,230,255,.7),445px 645px 0 1px rgba(220,235,255,.9),712px 289px 0 1px rgba(210,225,255,.8),978px 667px 0 1px rgba(200,230,255,.7),90px 456px 0 1px rgba(210,235,255,.9),623px 512px 0 1px rgba(220,240,255,.8);animation:tw2 5s ease-in-out infinite alternate} @keyframes tw1{0%{opacity:.3}50%{opacity:1}100%{opacity:.5}} @keyframes tw2{0%{opacity:.8}50%{opacity:.2}100%{opacity:1}} @keyframes fadeInUp{from{transform:translateY(22px);opacity:0}to{transform:translateY(0);opacity:1}} @keyframes burstIn{from{transform:scale(.25) rotate(-5deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}} @keyframes meteorIn{from{transform:translateX(-30px);opacity:0;border-left-color:rgba(255,120,0,.9)}to{transform:translateX(0);opacity:1;border-left-color:rgba(125,211,252,.38)}} @keyframes headIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}} @keyframes quoteReveal{from{opacity:0;transform:translateY(15px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}} @keyframes novaGlow{0%,100%{transform:translate(-50%,-50%) scale(.7);opacity:.35}50%{transform:translate(-50%,-50%) scale(2.3);opacity:.9}} @keyframes shockRing{0%{width:0;height:0;opacity:1;border-width:3px;border-color:rgba(255,200,100,.85)}100%{width:1100px;height:1100px;opacity:0;border-width:0}} @keyframes cosmicRing{0%{width:0;height:0;opacity:.75;border-color:rgba(125,211,252,.75)}100%{width:1400px;height:1400px;opacity:0;border-color:rgba(255,200,100,0)}} @keyframes cosmicRing2{0%{width:0;height:0;opacity:.5;border-color:rgba(255,180,50,.6)}100%{width:1400px;height:1400px;opacity:0;border-color:rgba(125,211,252,0)}} @keyframes titleFlare{0%,100%{filter:drop-shadow(0 0 18px rgba(255,180,0,.5))}50%{filter:drop-shadow(0 0 55px rgba(255,220,0,1)) drop-shadow(0 0 100px rgba(255,50,0,.5))}} @keyframes cosmicText{0%,100%{filter:drop-shadow(0 0 8px rgba(125,211,252,.4))}50%{filter:drop-shadow(0 0 26px rgba(125,211,252,1)) drop-shadow(0 0 50px rgba(255,215,0,.35))}} .slide-title{text-align:center!important;position:relative!important;overflow:hidden!important} .slide-title::before{content:'';position:absolute;top:50%;left:50%;width:380px;height:380px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(255,200,0,.32) 0%,rgba(255,60,0,.14) 40%,rgba(120,0,200,.07) 65%,transparent 80%);animation:novaGlow 5s ease-in-out infinite;pointer-events:none;z-index:0} .slide-title::after{content:'';position:absolute;top:50%;left:50%;width:0;height:0;transform:translate(-50%,-50%);border-radius:50%;border:3px solid rgba(255,200,100,.75);animation:shockRing 3.5s ease-out infinite;pointer-events:none;z-index:0} .slide-title h1{font-size:3.2em!important;background:linear-gradient(135deg,#ffd700 0%,#ff8c00 30%,#ff4060 60%,#c026d3 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:titleFlare 5s ease-in-out infinite,fadeInUp .9s ease both!important;position:relative;z-index:1} .slide-title h2{font-size:1.0em!important;color:#7dd3fc!important;font-weight:300!important;letter-spacing:.2em!important;text-transform:uppercase;animation:fadeInUp .9s ease .3s both!important;position:relative;z-index:1} .slide-title .slide-body{font-size:.56em!important;max-width:68%;text-align:center;opacity:.82;line-height:1.85;color:rgba(200,225,255,.88);border-top:1px solid rgba(125,211,252,.2);padding-top:.8em;margin:1em auto 0;animation:fadeInUp .9s ease .55s both!important;font-style:italic;position:relative;z-index:1} .slide-title .meta{font-size:.46em!important;letter-spacing:.3em!important;color:rgba(255,200,100,.65)!important;text-transform:uppercase!important;font-family:var(--mo)!important;animation:fadeInUp .9s ease .75s both!important;position:relative;z-index:1} .slide-section-break{text-align:center!important;position:relative!important;overflow:hidden!important} .slide-section-break::before{content:'';position:absolute;top:50%;left:50%;width:0;height:0;transform:translate(-50%,-50%);border-radius:50%;border:2px solid rgba(125,211,252,.65);animation:cosmicRing 4.2s ease-out infinite;pointer-events:none;z-index:0} .slide-section-break::after{content:'';position:absolute;top:50%;left:50%;width:0;height:0;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(255,180,50,.45);animation:cosmicRing2 4.2s ease-out 2s infinite;pointer-events:none;z-index:0} .slide-section-break h2{font-size:2.3em!important;letter-spacing:.07em!important;background:linear-gradient(90deg,#7dd3fc 0%,#ffffff 42%,#ffd700 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:burstIn .7s cubic-bezier(.34,1.56,.64,1) both,cosmicText 6s ease-in-out 1s infinite!important;position:relative;z-index:1} .slide-section-break h3{color:#7dd3fc!important;font-weight:300!important;letter-spacing:.12em!important;position:relative;z-index:1} .slide-section-break .slide-body{font-size:.6em!important;max-width:72%;text-align:center;opacity:.82;line-height:1.78;color:rgba(190,220,255,.88);border-top:1px solid rgba(125,211,252,.18);padding-top:.78em;margin:1em auto 0;font-style:italic;animation:fadeInUp .8s ease .6s both!important;position:relative;z-index:1} .slide-content{background:linear-gradient(135deg,rgba(0,2,22,.8) 0%,rgba(10,0,32,.65) 100%)!important;border:1px solid rgba(125,211,252,.12)!important;box-shadow:inset 0 0 70px rgba(0,15,80,.22),0 0 2px rgba(125,211,252,.12)!important} .slide-content h2{font-size:1.32em!important;color:#ffd700!important;border-bottom:2px solid #ffd700!important;text-shadow:0 0 18px rgba(255,215,0,.45)!important;letter-spacing:.07em!important;animation:headIn .5s ease both!important;padding-bottom:.2em!important} .reveal .slides section.slide-content ul{font-size:1em} .slide-content ul li{font-size:.7em!important;margin-bottom:.3em!important;border-left:2px solid rgba(125,211,252,.38)!important;padding-left:.55em!important;animation:meteorIn .5s ease both!important;list-style:none!important} .slide-content ul li:nth-child(1){animation-delay:.08s!important} .slide-content ul li:nth-child(2){animation-delay:.18s!important} .slide-content ul li:nth-child(3){animation-delay:.28s!important} .slide-content ul li:nth-child(4){animation-delay:.38s!important} .slide-content ul li:nth-child(5){animation-delay:.48s!important} .slide-two-column{background:linear-gradient(135deg,rgba(0,2,20,.75) 0%,rgba(12,0,28,.6) 100%)!important;border:1px solid rgba(125,211,252,.09)!important} .reveal .two-col-grid>div:first-child{border:1px solid rgba(255,215,0,.3)!important;background:linear-gradient(150deg,rgba(255,215,0,.06) 0%,transparent 78%)!important;box-shadow:0 0 25px rgba(255,180,0,.06),inset 0 1px 0 rgba(255,215,0,.14)!important} .reveal .two-col-grid>div:last-child{border:1px solid rgba(125,211,252,.3)!important;background:linear-gradient(150deg,rgba(125,211,252,.06) 0%,transparent 78%)!important;box-shadow:0 0 25px rgba(100,200,255,.06),inset 0 1px 0 rgba(125,211,252,.14)!important} .reveal .two-col-grid>div:first-child .col-title{color:#ffd700!important;border-color:rgba(255,215,0,.55)!important;text-shadow:0 0 14px rgba(255,215,0,.55)!important} .reveal .two-col-grid>div:last-child .col-title{color:#7dd3fc!important;border-color:rgba(125,211,252,.55)!important;text-shadow:0 0 14px rgba(125,211,252,.55)!important} .reveal .two-col-grid .col-title{font-size:.88em!important;letter-spacing:.09em!important} .reveal .two-col-grid ul{font-size:.57em!important} .reveal .two-col-grid li{margin-bottom:.22em!important} .slide-quote{background:radial-gradient(ellipse at 50% 38%,rgba(100,0,200,.2) 0%,transparent 62%),rgba(0,0,18,.9)!important;text-align:center!important} .slide-quote blockquote{font-size:.92em!important;font-style:italic!important;font-weight:300!important;color:rgba(240,248,255,.95)!important;border:none!important;max-width:84%!important;line-height:1.9!important;text-shadow:0 0 22px rgba(180,130,255,.16)!important;animation:quoteReveal 1.1s ease .15s both!important} .slide-quote .attribution{color:#ffd700!important;letter-spacing:.14em!important;font-size:.62em!important;font-family:var(--mo)!important;animation:fadeInUp .8s ease 1s both!important} .slide-table{background:linear-gradient(135deg,rgba(0,2,20,.82) 0%,rgba(5,0,24,.7) 100%)!important} .slide-table h2{color:#ffd700!important;text-shadow:0 0 14px rgba(255,215,0,.42)!important} .reveal table{font-size:.48em!important;border-collapse:collapse!important} .reveal table th{background:rgba(255,215,0,.08)!important;color:#ffd700!important;border-bottom:2px solid rgba(255,215,0,.38)!important;letter-spacing:.07em!important;font-family:var(--mo)!important;padding:.4em .5em!important} .reveal table td{border-bottom:1px solid rgba(125,211,252,.08)!important;color:rgba(215,235,255,.9)!important;font-family:var(--mo)!important;padding:.3em .5em!important} .reveal table tr:hover td{background:rgba(125,211,252,.05)!important}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "fade",
+      "title": "When Stars Die",
+      "subtitle": "A Cosmic Epic Across 10 Billion Years",
+      "body": "Every atom in your body was forged inside a dying star. This is the story of how the universe's most powerful engines ignite, rage, and finally collapse — scattering the seeds of planets, oceans, and life across the cosmos."
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "⭐ Act I — Fire in the Void",
+      "subtitle": "How a star is born from darkness",
+      "body": "In vast clouds of hydrogen that dwarf solar systems, gravity wins. Gas contracts. Temperature climbs. At 10 million degrees, nuclei fuse — and a star blazes to life against the eternal dark."
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "The Nuclear Furnace",
+      "bullets": [
+        "☀️ Every second the Sun fuses 620 million tonnes of hydrogen into helium",
+        "🔥 Core temperature: 15 million °C — where hydrogen nuclei violently fuse",
+        "⚖️ Radiation outward pressure vs gravity inward: the eternal balancing act",
+        "⚡ One solar flare releases more energy than all human history combined",
+        "💀 When hydrogen runs out, the balance breaks — and the star begins to die"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "fade",
+      "title": "Two Paths to Oblivion",
+      "left_title": "☀️ Low-Mass Star (< 8× Sun)",
+      "right_title": "💥 High-Mass Star (> 8× Sun)",
+      "left": [
+        "🔴 Expands into a Red Giant, swallowing its inner planets",
+        "🌸 Outer layers drift away as a glowing Planetary Nebula",
+        "💎 Core remains as a White Dwarf — Earth-sized, Sun-mass",
+        "❄️ Slowly cools over trillions of years to near absolute zero",
+        "🌑 Black Dwarfs don't yet exist — the universe is too young"
+      ],
+      "right": [
+        "🌋 Iron ash builds in the core — fusion can no longer continue",
+        "💀 Core collapses in under one second, then bounces outward",
+        "💥 Supernova: briefly outshines an entire galaxy of 100B stars",
+        "⚡ Leaves a neutron star spinning at hundreds of rotations/sec",
+        "🌌 Ejects heavy elements forged in the collapse into the galaxy"
+      ]
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "🔴 Act II — The Giant Awakens",
+      "subtitle": "When the hydrogen runs out",
+      "body": "After billions of years, the hydrogen runs out. Gravity wins. The core contracts, heats, and the outer shell swells to a giant. Our Sun will expand 200 times larger — swallowing Mercury, Venus, and perhaps Earth."
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "Neutron Stars: Nature's Extremes",
+      "bullets": [
+        "⚡ Born when a stellar core collapses in under 0.1 seconds after supernova",
+        "🏋️ One teaspoon of neutron star material weighs 10 million tonnes",
+        "🔄 Pulsars: some spin 716 times per second, as precise as atomic clocks",
+        "🌊 Merging neutron stars create gravitational waves — first detected 2017",
+        "🥇 All gold and platinum in the universe forged in neutron star collisions"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "Black Holes: Where Physics Ends",
+      "bullets": [
+        "🕳️ Stellar black holes: 5–100× the Sun's mass crushed to infinite density",
+        "🌀 The event horizon: once crossed, not even light can escape",
+        "⏱️ Time dilation: clocks near a black hole's edge run almost infinitely slow",
+        "📡 First black hole image: M87* — 6.5 billion solar masses (2019)",
+        "☢️ Hawking radiation: black holes slowly evaporate over 10⁶⁷ years"
+      ]
+    },
+    {
+      "type": "table",
+      "transition": "fade",
+      "title": "The Stellar Fate Chart",
+      "headers": ["Star Type", "Mass", "Lifespan", "Death", "Remnant"],
+      "rows": [
+        ["Red Dwarf", "< 0.5× ☀️", "1–10 trillion yrs", "Gentle fade", "White Dwarf"],
+        ["Sun-like", "0.5–8× ☀️", "1–10 billion yrs", "Planetary Nebula", "White Dwarf"],
+        ["Massive Star", "8–20× ☀️", "10–100 million yrs", "Supernova", "Neutron Star"],
+        ["Hypergiant", "> 20× ☀️", "1–10 million yrs", "Hypernova", "Black Hole"],
+        ["Our Sun", "1× ☀️", "~10 billion yrs", "Nebula (in 5B yrs)", "White Dwarf"]
+      ]
+    },
+    {
+      "type": "quote",
+      "transition": "fade",
+      "quote": "The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of star-stuff.",
+      "attribution": "Carl Sagan, Cosmos (1980)"
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "✨ We Are Stardust",
+      "subtitle": "Every atom in you was forged by a dying star",
+      "body": "You are not merely made of matter. You are made of stellar ash — remnants of stars that burned and died before Earth was born. The iron in your blood, the oxygen in your lungs: cosmic recycling at its most profound."
+    }
+  ]
+}

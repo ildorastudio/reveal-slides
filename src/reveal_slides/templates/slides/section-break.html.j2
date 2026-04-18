@@ -1,0 +1,9 @@
+<section class="slide-section-break"{% if slide.transition %} data-transition="{{ slide.transition }}"{% endif %}>
+    <h2>{{ slide.title }}</h2>
+    {% if slide.subtitle %}
+    <h3>{{ slide.subtitle }}</h3>
+    {% endif %}
+    {% if slide.body %}
+    <p class="slide-body">{{ slide.body }}</p>
+    {% endif %}
+</section>

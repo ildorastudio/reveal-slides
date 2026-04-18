@@ -1,0 +1,76 @@
+{
+  "title": "{{ title }}",
+  "author": "{{ author }}",
+  "theme": "corporate-blue",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "slides": [
+    {
+      "type": "title",
+      "title": "{{ title }}",
+      "subtitle": "Quarterly Business Review",
+      "body": "{{ date }}"
+    },
+    {
+      "type": "section-break",
+      "title": "Q Highlights"
+    },
+    {
+      "type": "content",
+      "title": "Key Wins This Quarter",
+      "bullets": [
+        "Highlight one",
+        "Highlight two",
+        "Highlight three",
+        "Highlight four"
+      ]
+    },
+    {
+      "type": "two-column",
+      "title": "Wins vs Misses",
+      "left_title": "Wins",
+      "right_title": "Misses",
+      "left": [
+        "Win one",
+        "Win two",
+        "Win three"
+      ],
+      "right": [
+        "Miss one",
+        "Miss two",
+        "Miss three"
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Numbers at a Glance",
+      "headers": ["Metric", "Last Q", "This Q", "Target"],
+      "rows": [
+        ["Revenue", "$X", "$Y", "$Z"],
+        ["Customers", "A", "B", "C"],
+        ["Churn", "D%", "E%", "F%"],
+        ["NPS", "G", "H", "I"]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Customer quote about the product or service.",
+      "attribution": "Customer Name, Company"
+    },
+    {
+      "type": "content",
+      "title": "Next Quarter Priorities",
+      "bullets": [
+        "Priority one",
+        "Priority two",
+        "Priority three",
+        "Priority four"
+      ]
+    },
+    {
+      "type": "section-break",
+      "title": "Q&A"
+    }
+  ]
+}
