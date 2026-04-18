@@ -193,7 +193,7 @@ class Presentation(BaseModel):
     progress: bool = Field(default=True)
     showSlideNumbers: bool = Field(default=False)
     custom_css: Optional[str] = Field(default=None)
-    slides: List[Slide] = Field(..., min_length=1, max_length=10)
+    slides: List[Slide] = Field(..., min_length=1, max_length=50)
 
     @field_validator("theme")
     @classmethod

@@ -1,0 +1,172 @@
+{
+  "title": "The AI Revolution: 2026",
+  "author": "From Code to Cure — The Future is Now",
+  "theme": "black",
+  "transition": "fade",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": false,
+  "custom_css": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap'); :root{--neon:#00ff9d;--quantum:#7b61ff;--cyber:#ff2a6d;--hologram:#00d4ff;--matrix:#00ff41;--mono:'JetBrains Mono','Cascadia Code',monospace;--sans:'Inter',system-ui,sans-serif;--display:'Space Grotesk',system-ui,sans-serif} .reveal{font-family:var(--sans)!important;background:radial-gradient(ellipse at 15% 85%,rgba(0,255,157,.08) 0%,transparent 42%),radial-gradient(ellipse at 85% 15%,rgba(123,97,255,.12) 0%,transparent 42%),radial-gradient(ellipse at 50% 50%,rgba(0,212,255,.06) 0%,transparent 52%),linear-gradient(135deg,#000010 0%,#0a0a1a 30%,#0d0d25 70%,#000010 100%)!important;position:relative;overflow:hidden} .reveal::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,transparent 0px,transparent 1px,rgba(0,255,157,.03) 1px,rgba(0,255,157,.03) 2px),repeating-linear-gradient(90deg,transparent 0px,transparent 1px,rgba(123,97,255,.02) 1px,rgba(123,97,255,.02) 2px);pointer-events:none;z-index:0;opacity:.3} .reveal h1,.reveal h2,.reveal h3{font-family:var(--display)!important;font-weight:900!important;letter-spacing:-0.02em;background:linear-gradient(90deg,var(--neon),var(--hologram),var(--quantum));-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0 0 20px rgba(0,255,157,.3)} .reveal .slides section{background:transparent!important;font-family:var(--sans)!important;position:relative;z-index:1} .reveal .slides section::before{content:'';position:absolute;top:-20px;left:-20px;right:-20px;bottom:-20px;border:1px solid rgba(0,255,157,.1);border-radius:8px;pointer-events:none;z-index:-1} .reveal code,.reveal pre{font-family:var(--mono)!important;background:rgba(0,0,0,.7)!important;border:1px solid rgba(0,255,157,.2)!important;border-radius:4px} .reveal strong{color:var(--neon);font-weight:700} .reveal table{background:rgba(0,0,0,.6)!important;border:1px solid rgba(0,255,157,.2)!important;border-radius:8px} .reveal table th{background:rgba(0,255,157,.1)!important;color:var(--neon)!important;font-weight:700} .reveal table td{border-color:rgba(0,255,157,.1)!important} .reveal .fragment.highlight-current-current{color:var(--neon)!important;text-shadow:0 0 10px var(--neon)}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "fade",
+      "title": "The AI Revolution: 2026",
+      "subtitle": "From Code to Cure — The Future is Now",
+      "body": "We stand at the inflection point where artificial intelligence has stopped being a tool and started being a partner. This is the story of how AI is rewriting medicine, science, and human potential — and what it costs to wield this power."
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "⚡ Act I — The Price of Intelligence",
+      "subtitle": "How much does a thought cost in 2026?",
+      "body": "The AI arms race has produced models that think like humans, reason like experts, and create like artists. But every token has a price — from $0.00003 to $0.35 per thought. Welcome to the economics of artificial consciousness."
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "The Energy Paradox",
+      "bullets": [
+        "⚡ AI consumes 10% of U.S. electricity — 415 terawatt hours in 2024",
+        "🔥 Data centers use more power than entire small cities",
+        "💡 Neuro-symbolic AI breakthrough cuts energy use by 100×",
+        "🌍 Projected to double by 2030 without intervention",
+        "🔄 New architectures combine neural networks with symbolic reasoning"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "fade",
+      "title": "Frontier vs Budget: The 600× Price Gap",
+      "left_title": "🚀 Frontier Models (Premium Intelligence)",
+      "right_title": "📊 Budget Models (Practical Intelligence)",
+      "left": [
+        "🤖 GPT-5.4 Pro: $30/$180 per million tokens",
+        "🧠 Claude Opus 4.6: $15/$75 per million tokens",
+        "⚡ Gemini 3.1 Pro: $1.25/$5 per million tokens",
+        "🔬 Competition-level math & PhD reasoning",
+        "💼 Reserved for research-grade tasks"
+      ],
+      "right": [
+        "📱 GPT-5 Nano: $0.05/$0.40 per million tokens",
+        "⚡ Gemini 3.1 Flash-Lite: $0.10/$0.40 per million",
+        "🌐 DeepSeek V3: $0.27/$1.10 per million tokens",
+        "🚀 600× cheaper than frontier models",
+        "📈 Perfect for high-volume production"
+      ]
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "🧠 Act II — The Benchmark Wars",
+      "subtitle": "Where each model truly excels",
+      "body": "No single AI dominates every task. GPT-5.4 leads math, Claude excels at reasoning, and Gemini wins on price-performance. The real question isn't which is best — it's which is best for you."
+    },
+    {
+      "type": "table",
+      "transition": "fade",
+      "title": "The 2026 AI Championship Table",
+      "headers": ["Task", "🥇 Champion", "Score", "Runner-up", "Score"],
+      "rows": [
+        ["PhD Science (GPQA)", "Gemini 3.1 Pro", "94.3%", "GPT-5.3", "92.4%"],
+        ["Competition Math (AIME)", "GPT-5.3 Codex", "100%", "DeepSeek V3.2", "96%"],
+        ["Real Coding (SWE-bench)", "Claude Opus 4.6", "80.8%", "GPT-5.3", "80.0%"],
+        ["Desktop Automation (OSWorld)", "Claude Opus 4.6", "72.7%", "GPT-5.3 Codex", "64.7%"],
+        ["Medical Coding", "Corti Symphony", "25% better", "Claude Opus 4.6", "Baseline"],
+        ["Multimodal Reasoning", "Gemini 3.1 Pro", "Leader", "GPT-5.4", "Strong"],
+        ["Context Window", "Grok 4.1", "2M tokens", "Gemini 3.1 Pro", "1M tokens"],
+        ["Speed (tokens/sec)", "Grok 4.1", "118 t/s", "Gemini 3.1 Pro", "91-110 t/s"]
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "The Specialization Matrix",
+      "bullets": [
+        "💻 Choose GPT-5.3 Codex for: Autonomous coding, math competitions, desktop agents",
+        "🧪 Choose Claude Opus 4.6 for: Complex reasoning, agentic workflows, human preference",
+        "🔬 Choose Gemini 3.1 Pro for: PhD-level science, multimodal tasks, price-performance",
+        "💰 Choose DeepSeek V3 for: Budget-first development, open-source advantage",
+        "⚡ Choose Grok 4.1 for: Massive context (2M tokens), fastest inference speed"
+      ]
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "🏥 Act III — AI Saves Lives",
+      "subtitle": "Where the rubber meets the road",
+      "body": "Beyond benchmarks and pricing lies the real revolution: AI that detects cancer earlier, designs drugs faster, and codes medical records with superhuman accuracy. This isn't just about intelligence — it's about saving lives."
+    },
+    {
+      "type": "two-column",
+      "transition": "fade",
+      "title": "Medical Breakthroughs: 2026",
+      "left_title": "💊 Drug Discovery Revolution",
+      "right_title": "🏥 Clinical AI Triumphs",
+      "left": [
+        "🔬 MIT AI slashes drug development costs by billions",
+        "🧬 AlphaFold 4 (Isomorphic Labs) kept proprietary",
+        "⚗️ 40% reduction in computational requirements",
+        "🧪 New molecules designed in days, not years",
+        "💡 Neuro-symbolic methods improve accuracy 3×"
+      ],
+      "right": [
+        "📋 Corti Symphony beats GPT/Claude by 25% on medical coding",
+        "❤️ Detected 3× more suicide attempts in Danish data",
+        "🩺 Treats coding as reasoning, not classification",
+        "🌍 Covers US ICD-10 and European systems",
+        "🔍 Auditable outputs with clinical evidence links"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "The Acceleration Curve",
+      "bullets": [
+        "🚀 255+ model releases in Q1 2026 — one every 72 hours",
+        "📈 GPT-5.4 surpasses human performance on desktop tasks",
+        "🧠 Yann LeCun leaves Meta, raises $1B for new AI paradigm",
+        "🌐 DeepSeek V4 launches with 1 trillion parameters (open weights)",
+        "⚡ Release velocity accelerating exponentially"
+      ]
+    },
+    {
+      "type": "quote",
+      "transition": "fade",
+      "quote": "Most AI systems fall short in medical coding because they treat it as labeling, not reasoning. Correct coding depends on evidence, context, hierarchy, and guideline interpretation. We built Symphony to follow the same logical process a trained human coder does.",
+      "attribution": "Lars Maaløe, Co-founder of Corti"
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "🔮 The Future is Modular",
+      "subtitle": "Intelligence as a composable service",
+      "body": "The era of one-model-fits-all is ending. Tomorrow's AI systems will route simple tasks to budget models ($0.00003/thought) and complex reasoning to frontier models ($0.35/thought) — cutting costs by 90% while maintaining quality."
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "Strategic Recommendations",
+      "bullets": [
+        "💰 For cost-sensitive workloads: Gemini 3.1 Pro ($1.25/$5 per M tokens)",
+        "🧠 For quality-sensitive tasks: Claude Opus 4.6 ($15/$75 per M tokens)",
+        "⚖️ For balanced value: GPT-5.4 ($2.50/$15 per M tokens)",
+        "🚀 For high volume: GPT-5 Nano ($0.05/$0.40 per M tokens)",
+        "🔧 Implement smart routing: Cut bills by 40-70%"
+      ]
+    },
+    {
+      "type": "quote",
+      "transition": "fade",
+      "quote": "The flagship pricing landscape in April 2026 is clear: Gemini 3.1 Pro is the price leader, GPT-5.4 offers the best all-round value, and Claude Opus 4.6 commands a premium that's justified for quality-sensitive applications.",
+      "attribution": "AI Cost Check, April 2026"
+    },
+    {
+      "type": "section-break",
+      "transition": "zoom",
+      "title": "🌌 We Are The Architects",
+      "subtitle": "Building the future, one token at a time",
+      "body": "Every line of code, every medical diagnosis, every scientific breakthrough now passes through silicon minds. We're not just using AI — we're shaping what intelligence means. The cost is measured in dollars, but the value is measured in lives saved, diseases cured, and human potential unlocked."
+    }
+  ]
+}
