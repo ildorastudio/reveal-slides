@@ -1,0 +1,163 @@
+{
+  "title": "Human–Agent Collaboration in 2026",
+  "author": "Your Name · April 2026",
+  "theme": "black",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "custom_css": ":root{--neon:#00d4ff;--accent:#00ff88;--warn:#ffb347;--danger:#ff6b6b;--border:rgba(0,212,255,.15);--mono:'Cascadia Code','Fira Code','JetBrains Mono',monospace;--sans:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif} .reveal{font-family:var(--sans)!important;background:linear-gradient(135deg,#020810 0%,#050d1a 40%,#060e1c 100%)!important} .reveal::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(0,212,255,.04) 39px,rgba(0,212,255,.04) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(0,212,255,.04) 39px,rgba(0,212,255,.04) 40px);pointer-events:none;z-index:0} .reveal h1,.reveal h2,.reveal h3{font-family:var(--sans)!important;font-weight:900!important;letter-spacing:-.02em} .reveal h1{color:var(--neon)!important;text-shadow:0 0 40px rgba(0,212,255,.5)} .reveal h2{color:var(--neon)!important} .reveal .slides section{background:transparent!important;z-index:1;position:relative} .reveal strong{color:var(--accent)!important} .reveal em{color:var(--warn)!important;font-style:normal} .reveal ul li{color:rgba(255,255,255,.9);line-height:1.7;padding:4px 0} .reveal ul li::marker{color:var(--neon)} .reveal code,.reveal pre{font-family:var(--mono)!important;background:rgba(0,10,20,.85)!important;border:1px solid var(--border)!important;border-radius:6px} .col-title{font-weight:700;border-bottom:1px solid var(--border);padding-bottom:6px;margin-bottom:12px} .two-col-grid>div:first-child{background:rgba(0,212,255,.04);border-radius:8px;padding:12px} .two-col-grid>div:first-child .col-title{color:var(--neon)!important;border-bottom-color:rgba(0,212,255,.3)} .two-col-grid>div:last-child{background:rgba(0,255,136,.04);border-radius:8px;padding:12px} .two-col-grid>div:last-child .col-title{color:var(--accent)!important;border-bottom-color:rgba(0,255,136,.3)} .slide-section-break{text-align:center} .slide-section-break h2{color:var(--neon)!important;font-size:2em!important} .slide-title .slide-body{color:rgba(255,255,255,.65);font-size:.8em;margin-top:1.2em;border-top:1px solid var(--border);padding-top:.8em} .slide-title .meta{color:rgba(0,212,255,.6);font-size:.7em;letter-spacing:.08em;margin-top:.4em} .slide-title h2{color:rgba(255,255,255,.75)!important;font-size:1.1em!important;font-weight:400!important;letter-spacing:.01em;margin-top:.4em} .reveal .slides section::after{content:'HUMAN\u2013AGENT \u00B7 2026';position:absolute;bottom:10px;right:18px;font-size:.45em;color:rgba(0,212,255,.2);letter-spacing:.18em;pointer-events:none} .reveal .progress span{background:var(--neon)!important} .reveal .controls{color:var(--neon)!important}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "zoom",
+      "title": "Human–Agent Collaboration in 2026",
+      "subtitle": "Designing Systems Where Developers and Agents Work Together",
+      "body": "For devs building agent-powered workflows"
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Why Collaboration Is the Real Bottleneck",
+      "bullets": [
+        "Agents are capable — aligning them with humans is the hard part",
+        "Core issues: trust gaps, unpredictability, insufficient control",
+        "2026 shift: from automation-first to collaboration-first design",
+        "Poor human–agent fit → rejected outputs, abandoned workflows",
+        "Ask: do users actually trust your agent's decisions?"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Modes of Human–Agent Interaction",
+      "left_title": "Control Models",
+      "right_title": "When to Use Each",
+      "left": [
+        "Human-in-the-loop: approve before each execution",
+        "Human-on-the-loop: monitor + override in flight",
+        "Human-out-of-the-loop: full autonomy pipeline",
+        "Autonomy level must be runtime-configurable",
+        "All three modes should coexist in one system"
+      ],
+      "right": [
+        "HITL: high-stakes, irreversible, low-frequency ops",
+        "HOTL: bulk ops, audit trail required",
+        "HOOTL: well-tested, low-stakes, high-frequency ops",
+        "Let users escalate or de-escalate control themselves",
+        "Default to lower autonomy until trust is established"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Designing Control Surfaces for Agents",
+      "bullets": [
+        "Expose per-step controls: retry, edit, approve, rollback",
+        "Surface intermediate reasoning — not just the final output",
+        "Support step-by-step execution mode for sensitive workflows",
+        "UX quality drives agent adoption more than model quality",
+        "Principle: every agent decision must be inspectable"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Feedback Loops That Actually Improve Systems",
+      "left_title": "Feedback Signals",
+      "right_title": "Acting on Feedback",
+      "left": [
+        "Explicit: thumbs up/down, inline edits, corrections",
+        "Implicit: ignored outputs, overrides, retry rates",
+        "Both types reveal what your agent is getting wrong",
+        "Store as structured events — not unstructured logs",
+        "Tag feedback to workflow step, not just the run"
+      ],
+      "right": [
+        "Override rate >20%? Revisit the action policy",
+        "Edit distance on outputs is a direct quality metric",
+        "Pipeline: feedback → eval set → regression tests",
+        "Route signals to: prompts, tools, workflow configs",
+        "Better feedback loops beat better prompts alone"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Prompting vs System Design",
+      "left_title": "Prompt Engineering Alone",
+      "right_title": "Systems Design Approach",
+      "left": [
+        "Brittle: breaks on distribution shift",
+        "Monolithic: one giant, hard-to-debug context blob",
+        "Unversioned: difficult to A/B test or roll back",
+        "Unconstrained: agents can go off-script easily",
+        "Opaque: hard to isolate root cause of failures"
+      ],
+      "right": [
+        "Prompts as versioned, swappable pipeline modules",
+        "Structured workflows with explicit step constraints",
+        "Validation and parsing layers between agent steps",
+        "Rules + LLM + output validators in sequence",
+        "Treat prompts like code: test, review, version"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Collaboration in Developer Workflows",
+      "bullets": [
+        "Code gen agents: suggest diffs, humans review and merge",
+        "PR assistants: summaries + review notes, humans approve",
+        "Debugging agents: surface candidates, developer decides",
+        "CI/CD agents: flag anomalies and hold, not auto-deploy",
+        "Result: 2–3× faster iteration with humans still in control"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Handling Trust & Transparency",
+      "left_title": "What Kills Trust",
+      "right_title": "What Builds Trust",
+      "left": [
+        "Black-box decisions with no explanation or reasoning",
+        "Inconsistent behavior across similar inputs",
+        "Silent failures or unexpected side effects",
+        "No audit trail for agent actions taken",
+        "No way to reproduce or verify what happened"
+      ],
+      "right": [
+        "Show: reasoning summary, tools used, sources cited",
+        "Log every action with inputs, outputs, timestamps",
+        "Make all agent runs fully reproducible on demand",
+        "Surface confidence signals directly in the UI",
+        "Trust is a feature you ship — not a side-effect"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Anti-Patterns to Avoid",
+      "bullets": [
+        "Full autonomy in workflows with irreversible side effects",
+        "No visibility into intermediate steps or agent reasoning",
+        "Single monolithic agent replacing an entire workflow",
+        "Treating user corrections as noise, not feedback signals",
+        "Result: fragile systems and rapidly eroded user trust"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Future of Human–Agent Systems",
+      "bullets": [
+        "Collaborative multi-agent + human teams on shared task graphs",
+        "Agents that adapt behavior to individual user patterns",
+        "Interfaces: away from chat, toward workflow-centric UIs",
+        "Developers evolve from coders to agent system designers",
+        "Best systems amplify humans — they don't replace them"
+      ]
+    }
+  ]
+}
