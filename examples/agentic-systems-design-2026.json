@@ -1,0 +1,159 @@
+{
+  "title": "Designing Reliable Agentic Systems in 2026",
+  "author": "For developers building real systems · April 18, 2026",
+  "theme": "tech-future",
+  "transition": "fade",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "custom_css": ".reveal h1{font-size:1.8em;line-height:1.2;letter-spacing:-0.02em} .reveal h2{letter-spacing:-0.01em} .reveal .col-title{color:#00d4ff;font-weight:700;font-size:0.78em;text-transform:uppercase;letter-spacing:0.1em;border-bottom:2px solid rgba(0,212,255,0.35);padding-bottom:0.35em;margin-bottom:0.55em} .reveal ul li{margin-bottom:0.25em;line-height:1.65} .reveal table td,.reveal table th{font-size:0.72em;padding:0.4em 0.6em} .reveal pre code{font-size:0.72em;line-height:1.55} .reveal .meta{font-size:0.7em;color:#6b7280;margin-top:1.2em} .reveal .slide-body{font-size:0.72em;color:#a0a0a0;margin-top:0.5em} .reveal .slide-title h1{margin-bottom:0.3em} .reveal .two-col-grid{gap:2.5em}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "zoom",
+      "title": "Designing Reliable Agentic Systems in 2026",
+      "subtitle": "From Experimental Agents to Production-Grade Architectures",
+      "body": "Distributed systems thinking applied to autonomous AI · Not a beginner's guide"
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "Why Reliability Became the Hard Problem",
+      "bullets": [
+        "Agents succeed in demos; they fail under real-world load and ambiguity",
+        "Core failure modes: non-determinism, tool failures, cascading cost spikes",
+        "2026 shift: the industry moved focus from capability to stability",
+        "Broken workflows cost more — in trust, time, and money — than bad UX",
+        "Key question: can your agent recover from its own mistakes?"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Single-Agent Logic → Distributed Execution",
+      "left_title": "Then: Linear Loops",
+      "right_title": "Now: Graph Execution",
+      "left": [
+        "ReAct-style: plan → act → observe → repeat",
+        "One context window, one thread of execution",
+        "Sequential tool calls with no parallelism",
+        "One failure = full restart from scratch",
+        "Orchestration = a system prompt"
+      ],
+      "right": [
+        "Graph-based execution with parallel agent branches",
+        "Agents as composable, independently deployable services",
+        "Shared state, async messaging, partial failure recovery",
+        "Orchestration layer is the actual product being built",
+        "Coordination > raw model intelligence"
+      ]
+    },
+    {
+      "type": "code",
+      "transition": "fade",
+      "title": "State Management: Event-Sourced Agents",
+      "language": "python",
+      "code": "class AgentState:\n    def checkpoint(self, step: int, ctx: dict) -> str:\n        event = StateEvent(step=step, context=ctx, ts=now())\n        self.store.append(event)  # immutable log\n        return event.id\n\n    def resume(self, checkpoint_id: str) -> AgentContext:\n        events = self.store.up_to(checkpoint_id)\n        return AgentContext.replay(events)  # deterministic replay\n\n# Stateless agents cannot resume. Checkpoints enable:\n# - fault tolerance across tool failures\n# - cost-efficient retries (skip completed steps)\n# - full auditability of agent decisions"
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Orchestration Patterns in 2026",
+      "left_title": "Centralized Control",
+      "right_title": "Decentralized Coordination",
+      "left": [
+        "Supervisor–Worker: one orchestrator, many executors",
+        "Hierarchical: planner → sub-planners → executors",
+        "Deterministic flow with embedded LLM decision points",
+        "Easier to audit, trace, and roll back on failure",
+        "Best fit for sequential, high-stakes workflows"
+      ],
+      "right": [
+        "Peer-to-peer agents sharing distributed task queues",
+        "Async execution + exponential-backoff retry loops",
+        "Event-driven: agents react to shared state changes",
+        "Higher throughput for embarrassingly parallel tasks",
+        "Harder to reason about globally — tracing is mandatory"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "fade",
+      "title": "Failure Handling & Recovery Strategies",
+      "bullets": [
+        "Retry loops alone are insufficient — add circuit breakers",
+        "Fallback tools + guardrails handle out-of-distribution inputs",
+        "Human-in-the-loop for irreversible or high-blast-radius actions",
+        "Treat timeouts and partial completions as first-class outcomes",
+        "Core principle: design for failure modes, not just the happy path"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Observability for Agent Systems",
+      "left_title": "What to Instrument",
+      "right_title": "What to Measure",
+      "left": [
+        "Structured decision traces, not raw log lines",
+        "Tool call sequences and their downstream side effects",
+        "State transitions logged at every agent boundary",
+        "Semantic diffs between runs for regression detection",
+        "Replay + time-travel debugging for incident analysis"
+      ],
+      "right": [
+        "Latency: per-task and per-subtask breakdown",
+        "Cost per successful task completion",
+        "Tool call failure rate segmented by tool type",
+        "Context window utilization over the task lifetime",
+        "Human escalation rate as a leading quality signal"
+      ]
+    },
+    {
+      "type": "table",
+      "transition": "fade",
+      "title": "Cost & Performance Optimization",
+      "headers": ["Strategy", "Token Reduction", "Latency Impact", "Complexity"],
+      "rows": [
+        ["Intermediate result caching", "20–40%", "None", "Low"],
+        ["Context window pruning", "15–30%", "None", "Medium"],
+        ["Selective LLM invocation", "25–50%", "Variable", "Medium"],
+        ["Tool call batching", "10–20%", "Reduced", "Low"],
+        ["Combined effect (tuned system)", "30–60%", "Improved", "Medium"]
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Designing for Real Use Cases",
+      "left_title": "High-Value Agentic Workflows",
+      "right_title": "Why Narrow Scope Wins",
+      "left": [
+        "Autonomous CI/CD pipeline agents",
+        "Incident debugging + root-cause analysis",
+        "Data enrichment and classification pipelines",
+        "Code review and security audit automation",
+        "Multi-step procurement and approval flows"
+      ],
+      "right": [
+        "Constrained scope → testable, predictable behavior",
+        "Easier to validate correctness end-to-end",
+        "Faster path from prototype to production deployment",
+        "Lower blast radius and rollback cost on failure",
+        "Stakeholder trust is built incrementally, not assumed"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "zoom",
+      "title": "The Near Future (2026–2028)",
+      "bullets": [
+        "Agent-to-agent protocols (A2A, MCP) becoming interoperability standards",
+        "Hybrid systems: LLM reasoning embedded in deterministic rule engines",
+        "Edge-deployed agents for latency-sensitive and air-gapped environments",
+        "Security, identity, and audit trails for agents are now table stakes",
+        "Engineering discipline will matter more than prompt engineering"
+      ]
+    }
+  ]
+}
