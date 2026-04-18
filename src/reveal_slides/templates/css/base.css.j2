@@ -115,8 +115,10 @@
 }
 .reveal .slides section.slide-content li {
     margin-bottom: 0.4em;
+}
+.reveal .slides section.present.slide-content li {
     opacity: 0;
-    animation: fadeInUp 0.6s ease forwards;
+    animation: fadeInUp 0.6s ease both;
     animation-delay: calc(var(--n, 0) * 0.1s);
 }
 .reveal .slides section.slide-content li::marker {
@@ -172,8 +174,10 @@
     margin-bottom: 0.5em;
     padding-left: 1.5em;
     position: relative;
+}
+.reveal .slides section.present .img-grid li {
     opacity: 0;
-    animation: fadeInUp 0.6s ease forwards;
+    animation: fadeInUp 0.6s ease both;
     animation-delay: calc(var(--n, 0) * 0.1s);
 }
 .reveal .img-grid li::before {
@@ -240,8 +244,10 @@
 }
 .reveal .two-col-grid li {
     margin-bottom: 0.3em;
+}
+.reveal .slides section.present .two-col-grid li {
     opacity: 0;
-    animation: fadeInUp 0.5s ease forwards;
+    animation: fadeInUp 0.5s ease both;
     animation-delay: calc(var(--n, 0) * 0.1s);
 }
 /* Section break */
