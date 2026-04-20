@@ -1,0 +1,137 @@
+{
+  "title": "Open Source AI: The 2026 Ecosystem Report",
+  "author": "State of AI \u00b7 April 2026",
+  "theme": "black",
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "showSlideNumbers": true,
+  "custom_css": "@keyframes aurora-wave{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}@keyframes shimmer-text{0%{background-position:-200% center}100%{background-position:200% center}}@keyframes h1-glow{0%,100%{filter:drop-shadow(0 0 10px rgba(168,85,247,.55))}50%{filter:drop-shadow(0 0 28px rgba(168,85,247,.95)) drop-shadow(0 0 55px rgba(6,182,212,.45))}}@keyframes scan-sweep{0%{top:-3px;opacity:.75}100%{top:100%;opacity:0}}@keyframes float-up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@keyframes border-pulse{0%,100%{border-color:rgba(168,85,247,.25)}50%{border-color:rgba(6,182,212,.45)}}:root{--pur:#a855f7;--cyn:#06b6d4;--grn:#10b981;--yel:#f59e0b;--brd:rgba(255,255,255,.08)}.reveal{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif!important;background:#030712!important}.reveal::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 15% -10%,rgba(168,85,247,.14) 0%,transparent 55%),radial-gradient(ellipse 60% 50% at 85% 110%,rgba(6,182,212,.12) 0%,transparent 55%),radial-gradient(ellipse 100% 60% at 50% 50%,rgba(16,185,129,.04) 0%,transparent 65%);background-size:200% 200%;animation:aurora-wave 10s ease infinite;pointer-events:none;z-index:0}.reveal::after{content:'';position:fixed;left:0;width:100%;height:2px;background:linear-gradient(90deg,transparent,rgba(168,85,247,.7),rgba(6,182,212,.6),transparent);animation:scan-sweep 7s linear infinite;pointer-events:none;z-index:2}.reveal .slides section{background:transparent!important;z-index:1;position:relative}.reveal h1{font-weight:900!important;letter-spacing:-.03em;background:linear-gradient(135deg,#a855f7 0%,#06b6d4 40%,#10b981 70%,#a855f7 100%)!important;background-size:300% auto!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;animation:shimmer-text 5s linear infinite,h1-glow 3s ease-in-out infinite}.reveal h2{color:var(--cyn)!important;font-weight:700!important;letter-spacing:-.02em}.reveal h3{color:var(--pur)!important;font-weight:600!important}.reveal ul li{color:rgba(255,255,255,.88);line-height:1.75;padding:4px 0;animation:float-up .5s ease both}.reveal ul li:nth-child(1){animation-delay:.08s}.reveal ul li:nth-child(2){animation-delay:.18s}.reveal ul li:nth-child(3){animation-delay:.28s}.reveal ul li:nth-child(4){animation-delay:.38s}.reveal ul li:nth-child(5){animation-delay:.48s}.reveal ul li::marker{color:var(--pur)}.reveal strong{color:var(--cyn)!important}.reveal em{color:var(--grn)!important;font-style:normal}.reveal table{border-collapse:collapse!important;width:100%}.reveal table th{background:rgba(168,85,247,.15)!important;color:var(--pur)!important;border:1px solid rgba(168,85,247,.3)!important;font-size:.75em;letter-spacing:.1em;text-transform:uppercase;padding:8px 12px}.reveal table td{border:1px solid var(--brd)!important;color:rgba(255,255,255,.82)!important;padding:7px 12px;font-size:.88em}.reveal table tr:hover td{background:rgba(168,85,247,.07)!important;transition:background .2s}.col-title{font-weight:700;border-bottom:1px solid var(--brd);padding-bottom:6px;margin-bottom:12px}.two-col-grid>div:first-child{background:rgba(168,85,247,.06);border:1px solid rgba(168,85,247,.2);border-radius:10px;padding:14px;animation:border-pulse 4s ease infinite}.two-col-grid>div:first-child .col-title{color:var(--pur)!important;border-bottom-color:rgba(168,85,247,.3)}.two-col-grid>div:last-child{background:rgba(6,182,212,.05);border:1px solid rgba(6,182,212,.2);border-radius:10px;padding:14px;animation:border-pulse 4s ease infinite reverse}.two-col-grid>div:last-child .col-title{color:var(--cyn)!important;border-bottom-color:rgba(6,182,212,.3)}.slide-section-break{text-align:center}.slide-section-break h2{font-size:2em!important;animation:h1-glow 3s ease-in-out infinite}.slide-title .slide-body{color:rgba(255,255,255,.6);font-size:.8em;margin-top:1.2em;border-top:1px solid var(--brd);padding-top:.8em}.slide-title .meta{color:rgba(168,85,247,.6);font-size:.7em;letter-spacing:.08em;margin-top:.4em}.slide-title h2{color:rgba(255,255,255,.7)!important;font-size:1.1em!important;font-weight:400!important;margin-top:.4em}.reveal blockquote{background:rgba(168,85,247,.08)!important;border-left:4px solid var(--pur)!important;border-radius:8px!important;padding:20px 26px!important;color:rgba(255,255,255,.9)!important;font-style:italic}.reveal pre{background:rgba(3,7,18,.9)!important;border:1px solid rgba(168,85,247,.2)!important;border-radius:8px!important;box-shadow:0 0 20px rgba(168,85,247,.1)}.reveal code,.reveal pre code{color:var(--grn)!important;font-family:'Cascadia Code','JetBrains Mono','Fira Code',monospace!important}.reveal .slides section::after{content:'OPEN SOURCE AI \u00b7 2026';position:absolute;bottom:10px;right:18px;font-size:.45em;color:rgba(168,85,247,.2);letter-spacing:.18em;pointer-events:none;font-family:monospace}.reveal .progress span{background:linear-gradient(90deg,var(--pur),var(--cyn))!important}.reveal .controls{color:var(--pur)!important}",
+  "slides": [
+    {
+      "type": "title",
+      "transition": "zoom",
+      "title": "Open Source AI: The 2026 Ecosystem Report",
+      "subtitle": "From Experiments to Enterprise Infrastructure",
+      "body": "Models, benchmarks, tools, and the economics of open AI"
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "The Scale of the Shift",
+      "bullets": [
+        "Hugging Face hosts 700,000+ open models as of April 2026",
+        "Llama 3.3 70B: 85.7% MMLU \u2014 within 4 points of GPT-4o",
+        "llama.cpp: run a 70B model on a single consumer GPU today",
+        "Open-weight models now handle ~40% of enterprise AI inference",
+        "2026: open-source AI is production infrastructure, not a hobby"
+      ]
+    },
+    {
+      "type": "table",
+      "transition": "slide",
+      "title": "Model Benchmarks: Open vs Closed (2025\u20132026)",
+      "headers": ["Model", "Weights", "Params", "MMLU", "Context"],
+      "rows": [
+        ["GPT-4o", "Closed", "N/D", "88.7%", "128K"],
+        ["Claude 3.5 Sonnet", "Closed", "N/D", "88.3%", "200K"],
+        ["Llama 3.1 405B", "Open", "405B", "88.6%", "128K"],
+        ["Llama 3.3 70B", "Open", "70B", "85.7%", "128K"],
+        ["Qwen 2.5 72B", "Open", "72B", "84.9%", "128K"],
+        ["Mistral Large 2", "Open", "123B", "84.0%", "128K"],
+        ["Phi-4", "Open", "14B", "84.8%", "16K"]
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Running AI: Local vs Cloud",
+      "left_title": "Run Locally",
+      "right_title": "Run in Cloud",
+      "left": [
+        "Tools: Ollama, llama.cpp, LM Studio, vLLM",
+        "Zero per-token cost once hardware is provisioned",
+        "Full data privacy \u2014 nothing leaves your network",
+        "Works offline, no rate limits, no vendor outages",
+        "Fine-tune and merge LoRA adapters on your own data"
+      ],
+      "right": [
+        "Providers: OpenAI, Anthropic, Google, Groq, Together",
+        "No upfront GPU investment required",
+        "Access to frontier models \u2014 GPT-4o, Claude, Gemini",
+        "Managed scale: handle traffic spikes automatically",
+        "Simpler ops \u2014 no GPU memory or infra management"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Tools Powering the Open Stack",
+      "bullets": [
+        "Ollama: one-line install, 100+ models, built-in REST API",
+        "vLLM: continuous batching delivers up to 24\u00d7 throughput",
+        "llama.cpp: GGUF quantization \u2014 70B runs on one GPU",
+        "Axolotl & Unsloth: fine-tune 7B models on a gaming GPU",
+        "LangChain + Ollama: local RAG pipeline in under 30 lines"
+      ]
+    },
+    {
+      "type": "two-column",
+      "transition": "slide",
+      "title": "Where Open Source Wins vs Closed",
+      "left_title": "Open Source Wins",
+      "right_title": "Closed Models Win",
+      "left": [
+        "Privacy-critical workloads: healthcare, legal, finance",
+        "Cost-sensitive apps needing high-volume inference",
+        "Fine-tuning on proprietary domain-specific data",
+        "Offline and air-gapped environments, edge devices",
+        "Research requiring direct access to model weights"
+      ],
+      "right": [
+        "Tasks requiring frontier reasoning and complex chains",
+        "Teams without MLOps expertise or GPU infrastructure",
+        "Multimodal tasks: vision + audio + video input",
+        "Low-latency apps using provider-optimised global infra",
+        "Rapid prototyping before committing to own infra"
+      ]
+    },
+    {
+      "type": "code",
+      "transition": "slide",
+      "title": "From Zero to Local LLM: 8 Lines of Python",
+      "language": "python",
+      "code": "import ollama\n\n# Run Llama 3.3 70B locally \u2014 no API key, no cloud, full privacy\nresponse = ollama.chat(\n    model=\"llama3.3:70b\",\n    messages=[\n        {\"role\": \"user\", \"content\": \"Explain transformer attention in 3 sentences\"}\n    ]\n)\n\nprint(response[\"message\"][\"content\"])\n# ~45 tokens/sec on M2 Max \u00b7 $0 per query \u00b7 100% offline\n# pip install ollama && ollama pull llama3.3:70b"
+    },
+    {
+      "type": "quote",
+      "transition": "fade",
+      "quote": "Keeping AI proprietary doesn\u2019t make it safer \u2014 it just concentrates power. Open models that can be inspected, forked, fine-tuned, and audited by anyone are the only structural guarantee we have against AI monopoly.",
+      "attribution": "Yann LeCun, Chief AI Scientist, Meta \u2014 paraphrased from public statements"
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "Tradeoffs: What Open Source Doesn\u2019t Give You",
+      "bullets": [
+        "Open \u2260 safe: weights can be fine-tuned to remove guardrails",
+        "Frontier closed models still lead on complex reasoning tasks",
+        "70B model inference requires 40+ GB VRAM \u2014 plan accordingly",
+        "You own hosting, updates, and security patches \u2014 all of them",
+        "Licence risk: Llama and Gemma restrict some commercial uses"
+      ]
+    },
+    {
+      "type": "content",
+      "transition": "slide",
+      "title": "2027 Outlook: What\u2019s Coming Next",
+      "bullets": [
+        "Sub-10B models matching today\u2019s 70B models \u2014 within 2 years",
+        "Open multimodal models: vision + audio + video, all open-weight",
+        "Browser-local inference: LLMs running natively via WebGPU",
+        "Standardised open agent frameworks: tool use + memory layers",
+        "Frontier reasoning gap may persist for another 2\u20133 years"
+      ]
+    }
+  ]
+}
